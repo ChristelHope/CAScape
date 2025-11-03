@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
   "id": "382961a1-e615-4b92-92a7-f1a791b50b7a",
-  "_index": 3,
-  "type": "TOPDOWN",
+  "_index": 0,
+  "type": "LOGO",
   "name": "ui/Logo",
   "symbol": "scene_logo",
   "x": 144,
@@ -12,6 +12,7 @@
   "backgroundId": "ba32b910-0493-4168-8660-1968a69393b2",
   "tilesetId": "",
   "paletteIds": [
+    "dmg",
     ""
   ],
   "spritePaletteIds": [],
@@ -70,5 +71,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00168+"
+  "collisions": "00168+",
+  "playerSpriteSheetId": "17219846-cda9-4e84-bdfa-c3ff105d42cc"
 }
