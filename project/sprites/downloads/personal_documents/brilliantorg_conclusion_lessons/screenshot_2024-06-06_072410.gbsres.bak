@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "021d9b2a-c585-4f8f-aab0-2c460cf04895",
+  "name": "Downloads/Personal Documents/brilliant.org conclusion lessons/Screenshot 2024-06-06 072410",
+  "symbol": "sprite_downloads_personal_d_7",
+  "numFrames": 70.75,
+  "filename": "Downloads/Personal Documents/brilliant.org conclusion lessons/Screenshot 2024-06-06 072410.png",
+  "checksum": "0ba37813bf0843c7395ce3a3d6c04054a90a03b6",
+  "width": 1132,
+  "height": 529,
+  "states": [
+    {
+      "id": "eace845a-1697-4f10-8e4b-271c8dc2b90c",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "1c3b4628-5019-4d17-905c-1ea9300482d7",
+          "frames": [
+            {
+              "id": "64b0925f-0887-474d-9282-964d981e3a3b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d8fad794-65b3-440d-9e12-3a11b8d39e32",
+          "frames": [
+            {
+              "id": "2bcc55ee-1463-4eb6-8a25-244081cf5c88",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ebbea4be-5633-4687-abfd-9ed13a260af7",
+          "frames": [
+            {
+              "id": "187e9d1e-5516-4984-a335-16095bf98279",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7750e7e4-449b-4ca5-a6c0-dda6b1554609",
+          "frames": [
+            {
+              "id": "6e6ef5ac-9d48-4593-8edd-9d69263a868f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "78d4b55a-1321-4a01-9409-dd7ee7fda8b3",
+          "frames": [
+            {
+              "id": "48ba16d1-6ca7-464c-815f-e9a07e9d3eeb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "abd6f63b-db5e-4934-847c-e554f61b73a0",
+          "frames": [
+            {
+              "id": "ed4a5aae-233f-4cc8-bd59-5224072c7080",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "caa4df91-b399-4ce3-ae59-1c5b1820cf0a",
+          "frames": [
+            {
+              "id": "6d09edca-0c1c-4c81-b339-447787a78d1c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "30cd6fe5-4d19-4bd2-a99a-2433fe1b6761",
+          "frames": [
+            {
+              "id": "4e9f04c7-73cf-4032-a1b6-b075dacace03",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

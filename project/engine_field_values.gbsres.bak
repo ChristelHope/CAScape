@@ -1,0 +1,45 @@
+{
+  "_resourceType": "engineFieldValues",
+  "engineFieldValues": [
+    {
+      "id": "fade_style",
+      "value": 0
+    },
+    {
+      "id": "INPUT_PLATFORM_JUMP",
+      "value": "INPUT_UP"
+    },
+    {
+      "id": "plat_jump_vel",
+      "value": 11669
+    },
+    {
+      "id": "plat_run_acc",
+      "value": 16
+    },
+    {
+      "id": "plat_walk_acc",
+      "value": 117
+    },
+    {
+      "id": "plat_run_vel",
+      "value": 7072
+    },
+    {
+      "id": "plat_walk_vel",
+      "value": 4947
+    },
+    {
+      "id": "plat_hold_grav",
+      "value": 611
+    },
+    {
+      "id": "plat_grav",
+      "value": 500
+    },
+    {
+      "id": "plat_max_fall_vel",
+      "value": 15341
+    }
+  ]
+}

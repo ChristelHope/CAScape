@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "c4b1b949-d8fc-4b0f-bd8a-e5e20ad6ecfd",
+  "_index": 8,
+  "name": "Watch your step",
+  "backgroundId": "bf3cb831-0c50-42d0-98a2-fa4da8c03804",
+  "tilesetId": "",
+  "width": 32,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "002+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!001f+0f12+003+0f9+0013+0f!003+0f!007+0f!0013+0f!003+0f!007+0f!0013+0f!003+0f!007+0f!",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 360,
+  "y": 464,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963"
+}

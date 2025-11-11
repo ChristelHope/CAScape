@@ -1,0 +1,40 @@
+{
+  "_resourceType": "scene",
+  "id": "65ff3f88-7dda-4ea8-a34f-a47fb345e77a",
+  "_index": 4,
+  "name": "reveal gap",
+  "backgroundId": "bf3cb831-0c50-42d0-98a2-fa4da8c03804",
+  "tilesetId": "",
+  "width": 32,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "002+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!001f+0f11+01!003+01!0f8+0012+0f!08!003+04!0f!006+0f!0012+0f!08!003+04!0f!006+0f!0012+0f!08!003+04!0f!006+0f!",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 360,
+  "y": 272,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 18
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        }
+      },
+      "id": "f8513d4e-43dd-45e1-9fcb-c56c8444ecc0"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963"
+}

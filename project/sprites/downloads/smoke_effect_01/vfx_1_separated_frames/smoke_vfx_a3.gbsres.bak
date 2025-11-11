@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "4700c992-a43a-4584-b51b-182ea0931950",
+  "name": "Downloads/Smoke Effect 01/VFX 1 Separated Frames/Smoke VFX A3",
+  "symbol": "sprite_downloads_smoke_effe_15",
+  "numFrames": 3,
+  "filename": "Downloads/Smoke Effect 01/VFX 1 Separated Frames/Smoke VFX A3.png",
+  "checksum": "d8d3492a8131c7e47b1e4c2a5a15fa33de268dca",
+  "width": 48,
+  "height": 32,
+  "states": [
+    {
+      "id": "4a6b3184-38cf-41f2-8887-ad3546e7dd48",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "b9f89ab3-ed91-4123-9686-2028fd46be64",
+          "frames": [
+            {
+              "id": "d6690a05-1caf-4ab6-b8ac-a5049265f73a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ffcac798-6153-4936-9eb3-baf6a104165b",
+          "frames": [
+            {
+              "id": "0d44c32c-f1b5-4f12-bc32-5807ddff2ae9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a61a9a25-4742-4229-9201-1e36c3bafcc8",
+          "frames": [
+            {
+              "id": "fc18a382-6c9e-4785-a1f3-71c9d56e930a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3fdd49ce-e345-4d2b-867b-673480f69899",
+          "frames": [
+            {
+              "id": "7f0f202d-ac34-4834-b8da-08da39849d1a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5dce6a75-db26-4510-a17c-b78fbfa2291b",
+          "frames": [
+            {
+              "id": "4e583dec-94c2-4589-8770-3119aa97cb6f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "96969774-24db-4615-aed3-ad58dba6c56d",
+          "frames": [
+            {
+              "id": "09dc39aa-5b83-4025-bccc-7180341d279b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bcd2ad14-0e68-4933-bf1d-5a3545fc5ebb",
+          "frames": [
+            {
+              "id": "99e54298-7b6a-4b60-9f4f-a46887898f94",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9f5fee42-88b2-4a21-8cbb-69d6ae349135",
+          "frames": [
+            {
+              "id": "5e21c120-ed37-433b-a98f-8ba6fe63458d",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

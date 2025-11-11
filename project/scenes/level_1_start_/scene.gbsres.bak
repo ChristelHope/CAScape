@@ -1,0 +1,38 @@
+{
+  "_resourceType": "scene",
+  "id": "3622fc30-8d5f-42bd-98a6-31169e0387f9",
+  "_index": 2,
+  "name": "Level 1 Start ",
+  "backgroundId": "b6dabdf1-948d-497a-a779-92d6c06c721a",
+  "tilesetId": "",
+  "width": 32,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "002+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!011d+002+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f12+003+0f9+0013+0f!003+0f!001b+0f!003+0f!001b+0f!003+0f!008+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 80,
+  "y": 272,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EFFECTS",
+      "args": {
+        "effect": "splitIn",
+        "actorId": "$self$",
+        "distance": 20,
+        "speed": 2,
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "6ebc6bfa-bbef-4d4f-b6c0-c81f0f0f950c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963"
+}
