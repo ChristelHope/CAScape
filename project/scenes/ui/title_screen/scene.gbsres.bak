@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "4912bee2-387a-472f-ae4f-6679b6149517",
-  "_index": 4,
+  "_index": 1,
   "type": "PLATFORM",
   "name": "ui/Title Screen",
   "symbol": "scene_title_screen",
@@ -12,6 +12,7 @@
   "backgroundId": "4bc14deb-16f4-432e-98ef-4db414e703fd",
   "tilesetId": "",
   "paletteIds": [
+    "dmg",
     ""
   ],
   "spritePaletteIds": [],
@@ -29,7 +30,8 @@
       "id": "ff79b819-b435-4ef8-af20-07302038959f",
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "actorId": "player"
+        "actorId": "player",
+        "__collapse": false
       }
     },
     {
@@ -37,10 +39,10 @@
       "command": "EVENT_AWAIT_INPUT",
       "args": {
         "input": [
-          "a",
-          "b",
           "start",
-          "select"
+          "select",
+          "a",
+          "b"
         ]
       }
     },
@@ -61,7 +63,8 @@
             "args": {
               "variable": "L0",
               "trueText": "New Game",
-              "falseText": "Continue"
+              "falseText": "Continue",
+              "__collapse": false
             }
           },
           {
@@ -82,7 +85,7 @@
                   "id": "a5dddc76-e5fe-424a-9b2b-1ad1834acefb",
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "896aee79-9b53-4ac1-b41f-b1ddf96da7ff",
+                    "sceneId": "64181156-d77d-4939-b931-c068d9af08e4",
                     "x": {
                       "type": "number",
                       "value": 4
@@ -92,7 +95,8 @@
                       "value": 13
                     },
                     "direction": "right",
-                    "fadeSpeed": "4"
+                    "fadeSpeed": 4,
+                    "__collapse": false
                   }
                 }
               ],
@@ -134,5 +138,7 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00168+"
+  "collisions": "00168+",
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "17219846-cda9-4e84-bdfa-c3ff105d42cc"
 }

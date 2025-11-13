@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "4b9d718a-a5a5-4242-b0bb-5c6d5d1ed921",
+  "name": "Downloads/Personal Documents/ID_Ong, Christel Hope",
+  "symbol": "sprite_downloads_personal_d_1",
+  "numFrames": 17.125,
+  "filename": "Downloads/Personal Documents/ID_Ong, Christel Hope.png",
+  "checksum": "ce8c51b5418a4e5502ffdb40e0af48285aea1732",
+  "width": 274,
+  "height": 269,
+  "states": [
+    {
+      "id": "3e18b331-be7f-4e5e-8fd8-4c7429e80408",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "0603f7ff-a4f5-41e9-b10f-f80946ab01b9",
+          "frames": [
+            {
+              "id": "d5b70946-35d4-44db-be2d-8a8a4a43ee96",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "01dca993-95c2-495a-bd9e-fd93091550a6",
+          "frames": [
+            {
+              "id": "31a0291a-97c8-484e-b7ea-8ed388ddea79",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "33392759-44b7-4a2e-98ce-1e63f088ac9b",
+          "frames": [
+            {
+              "id": "b405ee2c-c7e9-41d7-b9a5-bca72dd629f0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5600e315-4a36-4f85-aa8c-48309daacbd9",
+          "frames": [
+            {
+              "id": "99a49a4e-75e7-46d2-869d-437ae93f69c7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9961761e-94b1-4bf9-ad81-352508745bc1",
+          "frames": [
+            {
+              "id": "7c1e2685-641e-48fc-bc5d-c116b6b46acc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2f8b8928-acf0-4bfd-9144-ed69aa827225",
+          "frames": [
+            {
+              "id": "bb83cb2c-d7dd-414f-83fc-93ef38cde2e8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "86946704-e202-4e13-be2d-af01f5acb4cb",
+          "frames": [
+            {
+              "id": "d8987a91-a5a9-44ce-9b84-b30bcbc35521",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "05d1f79c-8978-48e7-b0fd-8da45481fe37",
+          "frames": [
+            {
+              "id": "a372840b-9153-4a9e-a33b-d57a34d76120",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

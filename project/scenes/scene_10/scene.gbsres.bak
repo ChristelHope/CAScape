@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "0149b855-3e26-44c5-982a-61b13c833651",
+  "_index": 9,
+  "name": "Scene 10",
+  "backgroundId": "bf3cb831-0c50-42d0-98a2-fa4da8c03804",
+  "tilesetId": "",
+  "width": 32,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "002+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!001f+0f12+003+0f9+0013+0f!003+0f!007+0f!0013+0f!003+0f!007+0f!0013+0f!003+0f!007+0f!",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 648,
+  "y": 464,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963"
+}

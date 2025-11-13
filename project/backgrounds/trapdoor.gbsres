@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "45ffce7b-6391-4902-987e-29a8b89f3b37",
+  "name": "TrapDoor",
+  "symbol": "bg_trapdoor",
+  "width": 8,
+  "height": 8,
+  "imageWidth": 64,
+  "imageHeight": 64,
+  "filename": "TrapDoor.png",
+  "tileColors": ""
+}
