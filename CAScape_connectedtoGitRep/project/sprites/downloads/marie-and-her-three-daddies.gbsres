@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "44872eb9-dd30-4024-8d8a-5e1b56c4a3b3",
+  "name": "Downloads/Marie-and-Her-Three-Daddies",
+  "symbol": "sprite_downloads_marie_and_",
+  "numFrames": 71.25,
+  "filename": "Downloads/Marie-and-Her-Three-Daddies.png",
+  "checksum": "be94298b7499132c7331010c46e8ba7ca2558168",
+  "width": 1140,
+  "height": 570,
+  "states": [
+    {
+      "id": "356bd4fa-b00b-429f-8449-8c900feb55c7",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "dc2bdead-7034-41ea-bce8-fd044ac4ef99",
+          "frames": [
+            {
+              "id": "0409ad0a-8cba-4716-960f-ddb0ea766ed4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "062bc00b-58c4-455f-ba84-c42cffe93a1d",
+          "frames": [
+            {
+              "id": "8bfa3ace-a786-4580-8c8b-e7b366bf34cc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ec663b64-9f51-4bec-88c4-5071f7081841",
+          "frames": [
+            {
+              "id": "ac736d16-021c-4052-8e3a-95058cc65cf8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2680525d-ac80-4aba-afa7-d4feb252ab35",
+          "frames": [
+            {
+              "id": "2ba742b6-3f09-4a53-abd3-9b0274a8cd94",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "712c02cc-85da-4d64-890a-af0d039ebd00",
+          "frames": [
+            {
+              "id": "6a9e0cde-042b-46c5-9ed1-c9a955c90890",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e99abc61-dc3d-4d76-a422-6b767275df82",
+          "frames": [
+            {
+              "id": "bbcdb6aa-546c-4079-a3f8-cc8cbe68d507",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c4618bb6-9654-45b8-8f80-3e0df60f1739",
+          "frames": [
+            {
+              "id": "d4eca49a-7672-470a-8d82-3142c473afe9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d9f6115e-c570-4ae6-9353-284bb37adbe2",
+          "frames": [
+            {
+              "id": "6e647d5c-3500-4dbb-af6a-d57c63909170",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

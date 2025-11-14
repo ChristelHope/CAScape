@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "a30aefcb-28fc-4349-a92d-0923288dc7bd",
+  "name": "Downloads/Kdramas/2",
+  "symbol": "sprite_downloads_kdramas_2",
+  "numFrames": 67.5,
+  "filename": "Downloads/Kdramas/2.png",
+  "checksum": "cabea467a27dbbfcfb94e3dde34da3672e35e099",
+  "width": 1080,
+  "height": 1080,
+  "states": [
+    {
+      "id": "f2cc0705-0172-4675-a6b6-e5531275668f",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "deb7e917-806e-4d25-86fc-c7d02c6b8e0e",
+          "frames": [
+            {
+              "id": "3760b23f-a204-43a8-a9b7-a11cddcbeea4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0fb438a9-7622-411e-9b58-41ca6b747c0d",
+          "frames": [
+            {
+              "id": "7502a5fc-83d2-4481-84b1-e5a93ef9ac33",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "25a51c8b-3949-4ae4-8780-77cd5f32d3fb",
+          "frames": [
+            {
+              "id": "e9480bc0-c023-419e-8b18-156eaa809bef",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "13bad379-aa76-454e-8043-13a27c750e33",
+          "frames": [
+            {
+              "id": "c81d3816-6366-4095-9c39-fd01936160e4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "aa985303-62fc-4dc4-bb87-81f666bd07d5",
+          "frames": [
+            {
+              "id": "090e8468-d81b-4a7c-87fb-74b3c47794ed",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ba50bc90-c2bb-42ba-9874-405b6b917c5f",
+          "frames": [
+            {
+              "id": "5c61112a-1c49-48d3-bb44-76058228e51b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a9f54d45-c5cb-4324-bfac-a9e854e95ecb",
+          "frames": [
+            {
+              "id": "f3d9e22e-baa7-4fcc-a2da-21da679cea1e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1135bd49-4cf2-469a-aff2-86e3f7e4f032",
+          "frames": [
+            {
+              "id": "a68c8868-0949-4c21-a910-a51e4efee978",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}
