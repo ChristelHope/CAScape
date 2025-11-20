@@ -1,0 +1,93 @@
+{
+  "_resourceType": "actor",
+  "id": "f06f7067-844a-420b-b640-89c75cbb1734",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "cf5b4097-c6ec-44b5-abc0-105b9e326891",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 0.5,
+  "animSpeed": 127,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_65",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "args": {
+        "actorId": "f06f7067-844a-420b-b640-89c75cbb1734"
+      },
+      "id": "fbec881c-03b2-4a66-933c-88c2bcc804bb"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "args": {
+        "actorId": "player"
+      },
+      "id": "af2e34ed-b586-441a-bc70-ff61d41e99a4"
+    },
+    {
+      "command": "EVENT_PLAYER_BOUNCE",
+      "args": {
+        "height": "low"
+      },
+      "id": "4ed3e7f5-7ebd-414c-9e9a-897f469c0806"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 30
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": false
+      },
+      "id": "89b3560f-5c3e-4328-af79-32c257762e1c"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 36
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "52a02c0e-a40d-4a2b-bfef-7465999adc84"
+    }
+  ],
+  "hit1Script": [
+    {
+      "command": "EVENT_PLAYER_BOUNCE",
+      "args": {
+        "height": "low"
+      },
+      "id": "0e411bb7-191a-4d24-83d0-d1d4eb214aee"
+    }
+  ],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 30,
+  "y": 13,
+  "_index": 3
+}

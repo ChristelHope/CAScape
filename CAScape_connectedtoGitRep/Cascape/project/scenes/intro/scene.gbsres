@@ -10,7 +10,7 @@
   "type": "PLATFORM",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 87.125,
@@ -22,55 +22,43 @@
         "actorId": "$self$",
         "__collapse": false
       },
-      "id": "a91f47da-c109-48e4-96b6-0dfc05c8fd99"
+      "id": "b00564ec-a14a-430d-b91e-83488f352045"
     },
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
+      "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
-        "input": [
-          "select",
-          "right",
-          "b",
-          "a",
-          "start"
-        ],
-        "override": false,
-        "__scriptTabs": "press"
+        "timer": 4,
+        "duration": 3,
+        "frames": 30,
+        "__scriptTabs": "end"
       },
       "children": {
-        "true": [
+        "script": [
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "345a05ba-7f4f-4dd9-a01c-dbe2d817faa7",
               "x": {
                 "type": "number",
-                "value": 3
+                "value": 1
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 17
               },
               "direction": "",
-              "fadeSpeed": "2"
+              "fadeSpeed": 1
             },
-            "id": "c4e28f10-641d-40cc-8ee4-f985c234acfc"
+            "id": "ee87c26b-0622-473e-9856-51d364f523aa"
           }
         ]
       },
-      "id": "e5139dcd-b721-4fcf-b674-2e1b066f08ab"
-    },
-    {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "$self$",
-        "__collapse": true
-      },
-      "id": "b00564ec-a14a-430d-b91e-83488f352045"
+      "id": "61ee4505-d16f-455d-af0d-43bd03a187c9"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963"
 }

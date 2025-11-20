@@ -24,7 +24,10 @@
           "select",
           "right",
           "b",
-          "a"
+          "a",
+          "down",
+          "up",
+          "left"
         ],
         "override": false,
         "__scriptTabs": "press"
@@ -41,10 +44,10 @@
               },
               "y": {
                 "type": "number",
-                "value": 12
+                "value": 13
               },
               "direction": "",
-              "fadeSpeed": "2",
+              "fadeSpeed": 1,
               "__collapse": false
             },
             "id": "b1edb80a-299f-4497-8d0e-0afce827d6e0"
@@ -65,5 +68,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963"
 }

@@ -3,10 +3,11 @@
   "id": "1f9a9430-5446-47ec-9f9f-f81eb71eff05",
   "name": "gameover",
   "symbol": "bg_gameover",
-  "width": 32,
+  "width": 20,
   "height": 18,
-  "imageWidth": 256,
+  "imageWidth": 160,
   "imageHeight": 144,
   "filename": "gameover.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2f9bf1c0-fab3-462c-ad54-f6f165061efa",
+  "name": "AudioVisual_1",
+  "symbol": "bg_pixil_frame_0_10_",
+  "width": 48,
+  "height": 18,
+  "imageWidth": 384,
+  "imageHeight": 144,
+  "filename": "AudioVisual_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

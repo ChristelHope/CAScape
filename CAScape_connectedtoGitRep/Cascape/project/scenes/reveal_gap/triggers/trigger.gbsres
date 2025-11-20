@@ -3,8 +3,8 @@
   "id": "252b5a84-aeaf-462e-9f82-2fda2010c11f",
   "name": "",
   "prefabId": "",
-  "x": 28,
-  "y": 13,
+  "x": 30,
+  "y": 12,
   "symbol": "trigger_1",
   "prefabScriptOverrides": {},
   "width": 1,
@@ -16,16 +16,17 @@
         "sceneId": "e7c02f10-67d6-45be-baac-2d201b144409",
         "x": {
           "type": "number",
-          "value": 3
+          "value": 4
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 13
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__collapse": false
       },
-      "id": "83eea852-df2c-4d6a-ad4d-b4c1f200ed13"
+      "id": "96399f17-022d-4da8-ac9e-6e138846e337"
     }
   ],
   "leaveScript": [],
