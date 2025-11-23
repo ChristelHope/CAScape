@@ -20,44 +20,36 @@
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",
-        "spriteStateId": "",
-        "loopAnim": true,
+        "spriteStateId": "bomb activate",
+        "loopAnim": false,
         "__collapse": false
       },
       "id": "2518f87b-56b8-40f6-82db-b8e04e721cd8"
     },
     {
-      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "actorId": "$self$",
-        "speed": 3
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
       },
-      "id": "42211038-4a6d-443f-a57c-fcff0416c56e"
-    },
-    {
-      "command": "EVENT_CAMERA_SHAKE",
-      "args": {
-        "time": 0.5,
-        "frames": 30,
-        "shakeDirection": "horizontal",
-        "magnitude": {
-          "type": "number",
-          "value": 5
-        }
-      },
-      "id": "d6fe8f35-042a-4509-8017-3d7c228da87f"
+      "id": "dacdee46-d6a4-4a01-8d93-e0c8e3cfb269"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "7a8bf4dc-d12a-40b5-8c7e-079cca09153e",
+        "sceneId": "0435d9de-cf46-4197-ba79-f79913c69259",
         "x": {
           "type": "number",
-          "value": 20
+          "value": 16
         },
         "y": {
           "type": "number",
-          "value": 14
+          "value": 3
         },
         "direction": "",
         "fadeSpeed": "2"

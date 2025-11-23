@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "23f9b362-65ba-45f3-99c8-2527b045e258",
-  "_index": 10,
+  "_index": 9,
   "name": "Play again (last scene)",
   "backgroundId": "6cd38cf4-7965-4f57-aa1f-b90f3915ac71",
   "tilesetId": "",
@@ -19,9 +19,24 @@
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "ffa442d2-bdb8-43c3-aaf6-9dd86b840c33"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "f46cfc8e-d216-4f90-b77f-be4046edc3f0"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "bde4fcfa-4fbd-49b3-9274-7ab9d1720c07"
+      },
+      "id": "3fa611c5-95b7-4d70-ac7d-8ca6cd84ad6e"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -57,6 +72,11 @@
               "fadeSpeed": 2
             },
             "id": "6ca8b908-d3dd-460b-a752-afc1e8c1698d"
+          },
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "5ad48196-c33e-4106-af5b-ff1575a30b80"
           }
         ]
       },

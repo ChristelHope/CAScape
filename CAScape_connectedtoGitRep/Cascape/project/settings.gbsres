@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
   "startSceneId": "f8c5823f-2c84-4321-916d-561c1d9423b5",
-  "startX": 15,
-  "startY": 11,
+  "startX": 7,
+  "startY": 15,
   "startMoveSpeed": 1,
   "startAnimSpeed": 255,
   "startDirection": "right",
@@ -42,7 +42,7 @@
     "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
     "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
   },
-  "musicDriver": "huge",
+  "musicDriver": "gbt",
   "cartType": "mbc5",
   "batterylessEnabled": false,
   "customColorsWhite": "E8F8E0",

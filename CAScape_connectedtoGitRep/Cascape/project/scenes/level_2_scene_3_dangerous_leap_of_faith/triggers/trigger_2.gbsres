@@ -8,18 +8,8 @@
   "symbol": "trigger_7",
   "prefabScriptOverrides": {},
   "width": 1,
-  "height": 1,
-  "script": [],
-  "leaveScript": [
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": 0.1,
-        "frames": 30,
-        "__collapse": false
-      },
-      "id": "02e4c4e3-bc80-456e-8e7b-a8a220ece9e2"
-    },
+  "height": 2,
+  "script": [
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
@@ -33,10 +23,11 @@
           "value": 13
         },
         "direction": "",
-        "fadeSpeed": 1
+        "fadeSpeed": "2"
       },
-      "id": "fcab1bc8-887f-4adb-bf61-4948df3307ab"
+      "id": "f8c1ba9f-fb57-4df8-ad2a-9653fc171e34"
     }
   ],
+  "leaveScript": [],
   "_index": 1
 }

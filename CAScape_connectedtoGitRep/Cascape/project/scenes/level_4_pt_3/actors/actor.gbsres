@@ -17,20 +17,18 @@
   "symbol": "actor_50",
   "script": [
     {
-      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "actorId": "$self$",
-        "speed": 3
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.3,
+        "wait": false,
+        "effect": 0,
+        "__collapse": true
       },
-      "id": "c8d4c0ba-3c54-458e-aa6d-ea4822cb52f6"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": 0.5,
-        "frames": 30
-      },
-      "id": "4737b592-af3b-49d5-8541-0eaab49a7507"
+      "id": "e34f2f2b-b207-41d9-a6ff-ad48575d612d"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

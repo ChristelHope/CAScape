@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "3622fc30-8d5f-42bd-98a6-31169e0387f9",
-  "_index": 2,
+  "_index": 1,
   "name": "Level 1 Start (Hallway)",
   "backgroundId": "8b96cea7-6d3d-46dc-8412-e3ec0eded2ff",
   "tilesetId": "",
@@ -15,9 +15,14 @@
   "collisions": "002+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f1e+002+0f!011d+002+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f12+003+0f9+0013+0f!003+0f!001b+0f!003+0f!001b+0f!003+0f!008+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
-  "x": 80,
+  "x": 400,
   "y": 272,
   "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "e5f3127c-621a-49b2-8083-a6420011a640"
+    },
     {
       "command": "EVENT_CAMERA_SET_POSITION",
       "args": {
@@ -29,9 +34,17 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "96f56542-98e2-4129-adf4-3aed1d86e54f"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "232b2e65-5e4b-461d-a0d4-fe8645dec804",
+        "__collapse": true
+      },
+      "id": "573a2c9a-e3b8-410b-8521-63b2bd14dda8"
     },
     {
       "command": "EVENT_CAMERA_SHAKE",
@@ -42,7 +55,8 @@
         "magnitude": {
           "type": "number",
           "value": 1
-        }
+        },
+        "__collapse": true
       },
       "id": "3dc85e15-b5f8-4d50-a9a8-35911b9812f9"
     },
@@ -52,14 +66,14 @@
         "text": [
           "\"Oh no. It's an\nearthquake!\""
         ],
-        "__section": "behavior",
+        "__section": "presets",
         "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
+        "minHeight": 3,
+        "maxHeight": 5,
         "textX": 1,
         "textY": 1,
         "textHeight": 5,
-        "position": "bottom",
+        "position": "top",
         "clearPrevious": true,
         "showFrame": "true",
         "speedIn": 1,
@@ -73,27 +87,19 @@
       "id": "e9fee575-1255-4c4c-8e6d-e7c000ddb3da"
     },
     {
-      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-      "args": {
-        "actorId": "$self$",
-        "speed": 15
-      },
-      "id": "d43c0750-28f9-498a-9e4a-6be91ddf8cd0"
-    },
-    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
           "\"Quickly! \nHelp Casie escape\nthe CAS building.\""
         ],
-        "__section": "behavior",
+        "__section": "layout",
         "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
+        "minHeight": 3,
+        "maxHeight": 5,
         "textX": 1,
         "textY": 1,
         "textHeight": 5,
-        "position": "bottom",
+        "position": "top",
         "clearPrevious": true,
         "showFrame": "true",
         "speedIn": 1,
@@ -102,14 +108,23 @@
         "closeButton": "any",
         "closeDelayTime": 3,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "1f5ef394-cb18-4452-8d8e-c95a04dd8752"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15,
+        "__collapse": true
+      },
+      "id": "d43c0750-28f9-498a-9e4a-6be91ddf8cd0"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false,
+  "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963"
 }

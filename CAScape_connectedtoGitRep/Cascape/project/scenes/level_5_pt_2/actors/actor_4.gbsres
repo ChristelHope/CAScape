@@ -36,6 +36,19 @@
         "height": "low"
       },
       "id": "4ed3e7f5-7ebd-414c-9e9a-897f469c0806"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 350,
+        "duration": 0.1,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "2c69cf80-bfcd-4ad3-80f0-1860a5310910"
     }
   ],
   "startScript": [],

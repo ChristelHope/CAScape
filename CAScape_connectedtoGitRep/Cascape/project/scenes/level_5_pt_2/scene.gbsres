@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
   "id": "7a8bf4dc-d12a-40b5-8c7e-079cca09153e",
-  "_index": 21,
+  "_index": 20,
   "name": "Level 5 pt 2",
-  "backgroundId": "e8196e12-0de9-4439-837d-047dde5e1fa6",
+  "backgroundId": "e5c0196a-50a0-486d-8685-ac6de78cdfa9",
   "tilesetId": "",
   "width": 48,
   "height": 18,
@@ -12,12 +12,23 @@
     "default-bg-2"
   ],
   "spritePaletteIds": [],
-  "collisions": "004+0f!002f+0f!002f+0f!002f+0f!002f+0f!002f+0f!002f+0f2c+004+0f!011e+0011+0f!002f+0f!002f+0f!002f+0f!001f+0fc+004+0f!001f+0fc+004+0f!002f+0fb+002f+0f!003+0f5+0027+0f!003+0f!003+0f!0027+0f2+002+0f!003+0f!0019+",
+  "collisions": "004+0f!002f+0f!002f+0f!002f+0f!002f+0f!002f+0f!002f+0f2c+004+0f!011e+0011+0f!002f+0f!002f+0f!002f+0f!001f+0fc+004+0f!001f+0fc+004+0f!002f+0fb+002f+0f!003+0f5+0027+0f!003+0f!003+0f!0027+0f!003+0f!003+0f!0019+",
   "autoFadeSpeed": 1,
   "symbol": "scene_23",
   "x": 2528,
   "y": 1392,
   "script": [
+    {
+      "command": "EVENT_CAMERA_LOCK",
+      "args": {
+        "speed": 0,
+        "axis": [
+          "x",
+          "y"
+        ]
+      },
+      "id": "9013c6f3-be59-4220-980c-6cc4c24fe16a"
+    },
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {

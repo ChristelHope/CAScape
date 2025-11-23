@@ -11,6 +11,19 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.3,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "8fdefd7d-8533-4a04-a99f-cf40856e713c"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "07b5ca56-bece-4c0b-9f5d-303ee0f89b26",

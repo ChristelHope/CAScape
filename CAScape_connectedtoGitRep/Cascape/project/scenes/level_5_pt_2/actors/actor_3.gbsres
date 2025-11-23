@@ -17,16 +17,29 @@
   "symbol": "actor_46",
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "65f508c8-2126-4bc2-83f5-58105773aa67"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "7a8bf4dc-d12a-40b5-8c7e-079cca09153e",
+        "sceneId": "0435d9de-cf46-4197-ba79-f79913c69259",
         "x": {
           "type": "number",
-          "value": 20
+          "value": 16
         },
         "y": {
           "type": "number",
-          "value": 14
+          "value": 1
         },
         "direction": "",
         "fadeSpeed": "2"
@@ -42,7 +55,7 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 2
+          "value": 15
         },
         "y": {
           "type": "number",

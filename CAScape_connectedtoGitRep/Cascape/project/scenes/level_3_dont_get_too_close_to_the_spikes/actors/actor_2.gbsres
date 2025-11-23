@@ -17,6 +17,19 @@
   "symbol": "actor_31",
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.3,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "c4f7f264-0b67-4ca2-89c3-512deb08e68b"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "0336e664-9fbe-4a5d-a0b6-7c49fdd6e49e",

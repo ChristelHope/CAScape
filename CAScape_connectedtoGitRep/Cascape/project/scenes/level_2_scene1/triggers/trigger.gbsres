@@ -11,11 +11,53 @@
   "height": 1,
   "script": [
     {
-      "command": "EVENT_ACTOR_MOVE_CANCEL",
+      "command": "EVENT_CAMERA_SHAKE",
       "args": {
-        "actorId": "$self$"
+        "time": 0.2,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 1
+        },
+        "__comment": true,
+        "__collapse": false
       },
-      "id": "f33817df-6401-4bdd-9d75-47e5dfcea99c"
+      "id": "05ba9689-2c3f-4264-baed-ad2e8ec3382e"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "c4b1b949-d8fc-4b0f-bd8a-e5e20ad6ecfd",
+        "x": {
+          "type": "number",
+          "value": 19
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "",
+        "fadeSpeed": 0,
+        "__comment": true
+      },
+      "id": "84983077-d45b-4dc4-b9b1-55dd3dbcd796"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "b3e536f0-e27e-42a7-8d94-e93e654e07ec"
     },
     {
       "command": "EVENT_CAMERA_SHAKE",
@@ -26,9 +68,10 @@
         "magnitude": {
           "type": "number",
           "value": 1
-        }
+        },
+        "__collapse": false
       },
-      "id": "05ba9689-2c3f-4264-baed-ad2e8ec3382e"
+      "id": "6b82901a-101a-4325-9861-64e7420ed58b"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -36,18 +79,18 @@
         "sceneId": "c4b1b949-d8fc-4b0f-bd8a-e5e20ad6ecfd",
         "x": {
           "type": "number",
-          "value": 17
+          "value": 19
         },
         "y": {
           "type": "number",
           "value": 13
         },
         "direction": "",
-        "fadeSpeed": 0
+        "fadeSpeed": 0,
+        "__collapse": true
       },
-      "id": "84983077-d45b-4dc4-b9b1-55dd3dbcd796"
+      "id": "a5a1b5da-abfd-477a-8429-3e6c9b9750e6"
     }
   ],
-  "leaveScript": [],
   "_index": 0
 }

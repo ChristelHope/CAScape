@@ -17,6 +17,20 @@
   "symbol": "actor_22",
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.3,
+        "wait": false,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "2fbc92ce-b028-4928-9862-5db852019c17"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "0179ff57-30c7-46c0-924d-02bd2ecfab82",
@@ -30,7 +44,7 @@
         },
         "direction": "",
         "fadeSpeed": "2",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "139231c1-a496-4d62-aaa9-574fa0e9b73d"
     }

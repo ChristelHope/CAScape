@@ -1,0 +1,43 @@
+{
+  "_resourceType": "scene",
+  "id": "d7ef5002-ad6a-4347-9317-cd1fd4181aa3",
+  "_index": 23,
+  "name": "Level 3 pt 1 (no dialogue)",
+  "backgroundId": "2f9bf1c0-fab3-462c-ad54-f6f165061efa",
+  "tilesetId": "",
+  "width": 48,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "001b4+0f!012b+004+0f!002f+0f!002f+0f!002f+0f!002f+0fa+005+0f1d+00d+0f!005+0f!0029+0f!005+0f!0029+0f!005+0f!001c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 112,
+  "y": 1064,
+  "script": [
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": 1,
+        "__collapse": false
+      },
+      "id": "fedced74-8bff-43f0-bf3c-2da815332ca6"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 15,
+        "__collapse": false
+      },
+      "id": "0b19aa0f-ffe1-4c80-a645-fb24b7f3ed54"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963"
+}

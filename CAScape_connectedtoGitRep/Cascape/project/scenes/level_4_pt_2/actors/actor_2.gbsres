@@ -17,35 +17,17 @@
   "symbol": "actor_16",
   "script": [
     {
-      "command": "EVENT_ACTOR_SET_STATE",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "actorId": "$self$",
-        "spriteStateId": "Bombing",
-        "loopAnim": true
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.3,
+        "wait": true,
+        "effect": 0
       },
-      "id": "65a04539-f15b-4181-b092-5e771e35a871"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-      "args": {
-        "actorId": "$self$",
-        "speed": 15
-      },
-      "id": "925781b4-87fe-4948-bd67-a94b66734a53"
-    },
-    {
-      "command": "EVENT_CAMERA_SHAKE",
-      "args": {
-        "time": 0.5,
-        "frames": 30,
-        "shakeDirection": "horizontal",
-        "magnitude": {
-          "type": "number",
-          "value": 5
-        },
-        "__comment": true
-      },
-      "id": "76ebfa47-6953-4564-95d1-cf00b8752d7d"
+      "id": "c61d188e-1bcf-4c4a-9014-79ce01289745"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

@@ -12,6 +12,19 @@
   "script": [],
   "leaveScript": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "a2f351c4-5d24-4f77-b1f0-38e7ad835a1b"
+    },
+    {
       "command": "EVENT_CAMERA_SHAKE",
       "args": {
         "time": 0.5,

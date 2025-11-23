@@ -17,6 +17,20 @@
   "symbol": "actor_14",
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.3,
+        "wait": true,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "0d538819-2c38-4810-896d-09bd409a5087"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "0179ff57-30c7-46c0-924d-02bd2ecfab82",

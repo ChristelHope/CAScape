@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "55a91d54-16c8-4b1a-a8fe-41d322fef258",
-  "_index": 14,
+  "_index": 13,
   "name": "Level 3 pt 2",
   "backgroundId": "98f21511-be35-49a1-ac8c-bf1ebaf3ffac",
   "tilesetId": "",
@@ -12,7 +12,7 @@
     "dmg"
   ],
   "spritePaletteIds": [],
-  "collisions": "001b4+0f!012b+004+0f!002f+0f!002f+0f!002f+0f!002f+0fb+003+0fa+003+0f11+00e+0f!003+0f!007+0f2+003+0f!00c+0f4+00e+0f!003+0f!007+0f2+003+0f!001e+0f!003+0f!008+0f!003+0f!0010+",
+  "collisions": "001b4+0f!012b+004+0f!002f+0f!002f+0f!002f+0f!002f+0fb+002+08!0fa+003+0f11+00e+0f!002+08!0f!007+0f2+003+0f!00c+0f4+00e+0f!002+08!0f!007+0f2+003+0f!001e+0f!003+0f!008+0f!003+0f!0010+",
   "autoFadeSpeed": 1,
   "symbol": "scene_15",
   "x": 512,

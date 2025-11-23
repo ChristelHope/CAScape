@@ -24,6 +24,19 @@
       "id": "b4c97cf8-7c70-45fe-8ed9-bbd653636f73"
     },
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "priority": "medium",
+        "pitch": 8,
+        "frequency": 350,
+        "duration": 0.1,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "610abc21-c53d-42a9-a17f-2cdfa847ab44"
+    },
+    {
       "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
       "args": {
         "actorId": "02a98c78-f532-45e4-9172-b541bedd01aa"

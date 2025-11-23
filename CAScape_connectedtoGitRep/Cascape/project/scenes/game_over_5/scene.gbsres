@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "0435d9de-cf46-4197-ba79-f79913c69259",
-  "_index": 20,
+  "_index": 19,
   "name": "Game Over 5",
   "backgroundId": "1f9a9430-5446-47ec-9f9f-f81eb71eff05",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_24",
-  "x": 2424,
-  "y": 1712,
+  "x": 2624,
+  "y": 1728,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -38,21 +38,21 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "cc1ad70b-57f3-4688-b091-a44b5d5e960b",
+              "sceneId": "aa19d448-41bd-48c7-80af-fdb52ed21ebd",
               "x": {
                 "type": "number",
-                "value": 6
+                "value": 5
               },
               "y": {
                 "type": "number",
-                "value": 9
+                "value": 13
               },
               "direction": "right",
               "fadeSpeed": "2"

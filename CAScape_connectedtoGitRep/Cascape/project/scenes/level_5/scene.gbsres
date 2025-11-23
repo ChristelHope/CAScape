@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
   "id": "cc1ad70b-57f3-4688-b091-a44b5d5e960b",
-  "_index": 19,
+  "_index": 18,
   "name": "Level 5",
-  "backgroundId": "830f36a0-27e1-4605-bf76-4d1c3180e348",
+  "backgroundId": "5ef55813-9575-46cf-8104-10a92d414d1e",
   "tilesetId": "",
   "width": 48,
   "height": 18,
@@ -12,7 +12,7 @@
     "default-bg-2"
   ],
   "spritePaletteIds": [],
-  "collisions": "004+0f!002f+0f!002f+0f!002f+0f!002f+0f!002f+0f!002f+0f2c+004+0f!012b+004+0f!002f+0f!002f+0f!002f+0f!001c+0f3+002+0fa+004+0f!001d+0f2+002+0f!00d+0f!001e+0f!002+0f!00d+0fc+008+0f4+007+0f!002+0f!0018+0f!003+0f6+00a+0f!002+0f!0018+0f!003+0f!003+0f2+00a+0f!002+0f!001c+0f!003+0f2+0017+",
+  "collisions": "004+0f!002f+0f!002f+0f!002f+0f!002f+0f!002f+0f!002f+0f2c+004+0f!014+0f!0126+004+0f!004+0f!002a+0f!004+0f!002a+0f!005+0f!0029+0f!006+0f!0015+0f3+002+0fa+004+0f!006+0f2+0011+0f6+002+0f!00d+0f!007+0f!00e+0f9+002+0f!00d+0fc+008+0f5+006+0f!002+0f!0018+0f!003+0f6+00a+0f!002+0f!0018+0f!003+0f!003+0f2+00a+0f!002+0f!001c+0f!003+0f2+0017+",
   "autoFadeSpeed": 1,
   "symbol": "scene_22",
   "x": 2096,
@@ -24,7 +24,7 @@
         "text": [
           "Casie:\nI see the exit!"
         ],
-        "__section": "behavior",
+        "__section": "layout",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -39,7 +39,8 @@
         "closeWhen": "key",
         "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "86364e4b-89eb-463d-ae90-aac6a865e931"
     },

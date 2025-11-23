@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "0e4f512d-fcd1-4aed-9206-cac3ac708dbe",
+  "id": "4f9ff1c4-1c27-4970-9d33-441d7575d3e2",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,8 +14,22 @@
   "persistent": true,
   "collisionGroup": "1",
   "prefabScriptOverrides": {},
-  "symbol": "actor_25",
+  "symbol": "actor_12",
   "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.3,
+        "wait": false,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "28cd7889-4576-46b3-9013-4f2b387ac3bb"
+    },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
@@ -32,7 +46,7 @@
         "fadeSpeed": "2",
         "__collapse": false
       },
-      "id": "f27e5b59-e1f6-4fa1-9c37-3406d78f1f45"
+      "id": "41ee983f-fadb-464d-a5ed-355eb3c4a22e"
     }
   ],
   "startScript": [],
@@ -53,7 +67,7 @@
         "useCollisions": false,
         "__collapse": false
       },
-      "id": "ecf9468e-32f5-407f-9226-8fea506dabe1"
+      "id": "080290df-9b84-45de-a154-8a71399e29f8"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -71,7 +85,7 @@
         "useCollisions": false,
         "__collapse": false
       },
-      "id": "29e7749d-f6d2-4487-a76c-fe4a7be10838"
+      "id": "fc32324f-206a-47f0-9f0f-5de2c12b5999"
     }
   ],
   "hit1Script": [],

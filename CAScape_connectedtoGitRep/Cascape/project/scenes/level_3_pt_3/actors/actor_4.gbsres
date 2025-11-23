@@ -33,6 +33,20 @@
         "__collapse": false
       },
       "id": "ae51be71-2d9a-4603-bd96-37bbda5ce1a2"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.3,
+        "wait": false,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "236a67a3-b7fa-4112-9e81-627bfedbcc3b"
     }
   ],
   "startScript": [],

@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "07b5ca56-bece-4c0b-9f5d-303ee0f89b26",
-  "_index": 7,
+  "_index": 6,
   "name": "Game Over 2",
   "backgroundId": "1f9a9430-5446-47ec-9f9f-f81eb71eff05",
   "tilesetId": "",
@@ -44,7 +44,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "e7c02f10-67d6-45be-baac-2d201b144409",
+              "sceneId": "a20e6a6c-591a-43bb-b535-f5e84f2beae2",
               "x": {
                 "type": "number",
                 "value": 4

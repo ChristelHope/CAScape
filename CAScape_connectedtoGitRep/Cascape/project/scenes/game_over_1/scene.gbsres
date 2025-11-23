@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "0d9ce418-ffbc-4845-9827-96f82dd4d4b7",
-  "_index": 5,
+  "_index": 4,
   "name": "Game Over 1",
   "backgroundId": "1f9a9430-5446-47ec-9f9f-f81eb71eff05",
   "tilesetId": "",
@@ -13,7 +13,7 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
-  "x": 640,
+  "x": 976,
   "y": 272,
   "script": [
     {
@@ -44,7 +44,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "3622fc30-8d5f-42bd-98a6-31169e0387f9",
+              "sceneId": "90bb412e-a3cb-4bdd-be53-24942620b1d5",
               "x": {
                 "type": "number",
                 "value": 4

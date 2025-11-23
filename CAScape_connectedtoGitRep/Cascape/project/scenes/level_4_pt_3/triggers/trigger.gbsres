@@ -3,13 +3,26 @@
   "id": "00d09048-a8dd-4a38-a3ac-5c318690f680",
   "name": "",
   "prefabId": "",
-  "x": 14,
+  "x": 13,
   "y": 17,
   "symbol": "trigger_26",
   "prefabScriptOverrides": {},
   "width": 5,
   "height": 1,
   "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.3,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "b681ebe0-db00-4d44-b024-25d321401994"
+    },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {

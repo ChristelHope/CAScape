@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "0336e664-9fbe-4a5d-a0b6-7c49fdd6e49e",
-  "_index": 11,
+  "_index": 10,
   "name": "Game Over 3",
   "backgroundId": "1f9a9430-5446-47ec-9f9f-f81eb71eff05",
   "tilesetId": "",
@@ -14,7 +14,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_14",
   "x": 632,
-  "y": 1456,
+  "y": 1176,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -45,7 +45,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "e3ec94e4-3653-4014-bea0-4192b6e9dc5b",
+              "sceneId": "d7ef5002-ad6a-4347-9317-cd1fd4181aa3",
               "x": {
                 "type": "number",
                 "value": 6

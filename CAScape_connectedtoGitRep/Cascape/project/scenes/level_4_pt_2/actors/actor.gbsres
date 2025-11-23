@@ -17,26 +17,17 @@
   "symbol": "actor_39",
   "script": [
     {
-      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "actorId": "$self$",
-        "speed": 3
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.3,
+        "wait": false,
+        "effect": 0
       },
-      "id": "884c9a00-933c-459e-9fa8-88cd8dc6d5b2"
-    },
-    {
-      "command": "EVENT_CAMERA_SHAKE",
-      "args": {
-        "time": 0.5,
-        "frames": 30,
-        "shakeDirection": "horizontal",
-        "magnitude": {
-          "type": "number",
-          "value": 5
-        },
-        "__comment": true
-      },
-      "id": "08152166-a995-42bc-8a99-b72549191a81"
+      "id": "a683ded9-c0a0-4a05-94f9-92d70a949e53"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

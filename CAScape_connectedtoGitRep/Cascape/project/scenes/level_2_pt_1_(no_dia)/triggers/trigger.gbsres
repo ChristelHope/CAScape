@@ -1,0 +1,96 @@
+{
+  "_resourceType": "trigger",
+  "id": "78d2e88d-c68e-43d5-93b5-45a8063fe7cb",
+  "name": "",
+  "prefabId": "",
+  "x": 18,
+  "y": 13,
+  "symbol": "trigger_43",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.2,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 1
+        },
+        "__comment": true,
+        "__collapse": false
+      },
+      "id": "d34a9e88-c7d1-425a-8b14-797d268a9bdd"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "c4b1b949-d8fc-4b0f-bd8a-e5e20ad6ecfd",
+        "x": {
+          "type": "number",
+          "value": 19
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "",
+        "fadeSpeed": 0,
+        "__comment": true
+      },
+      "id": "14e38fe2-d950-4e86-907f-8008f963bd38"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "0e25df07-f0a3-4cb8-9a8b-d919dbff8479"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.2,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": false
+      },
+      "id": "8e1e8e11-cf13-46f0-b113-2d9f9fdc772f"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "c4b1b949-d8fc-4b0f-bd8a-e5e20ad6ecfd",
+        "x": {
+          "type": "number",
+          "value": 19
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "",
+        "fadeSpeed": 0,
+        "__collapse": true
+      },
+      "id": "078c8183-e26f-45b0-aea6-36f55ce38d92"
+    }
+  ],
+  "_index": 0
+}

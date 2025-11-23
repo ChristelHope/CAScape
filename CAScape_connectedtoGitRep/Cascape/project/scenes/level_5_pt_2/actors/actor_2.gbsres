@@ -17,19 +17,42 @@
   "symbol": "actor_35",
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 1,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "4acfe3fe-d189-4525-a7c4-1bc53399e309"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "bomb activate",
+        "loopAnim": false
+      },
+      "id": "3a0af18c-49a9-4d62-9137-7dabdd540758"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "0435d9de-cf46-4197-ba79-f79913c69259",
         "x": {
           "type": "number",
-          "value": 17
+          "value": 18
         },
         "y": {
           "type": "number",
-          "value": 4
+          "value": 6
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__collapse": true
       },
       "id": "8550219b-0c8f-481f-99fe-d5e9355df127"
     }

@@ -1,0 +1,78 @@
+{
+  "_resourceType": "scene",
+  "id": "90bb412e-a3cb-4bdd-be53-24942620b1d5",
+  "_index": 27,
+  "name": "Level 1.2 (NO DIA)",
+  "backgroundId": "8b96cea7-6d3d-46dc-8412-e3ec0eded2ff",
+  "tilesetId": "",
+  "width": 32,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [
+    "default-bg-2"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "002+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f1e+002+0f!011d+002+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f12+003+0f9+0013+0f!003+0f!001b+0f!003+0f!001b+0f!003+0f!008+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_28",
+  "x": 88,
+  "y": 272,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "fcd1e97d-e440-412e-a6b6-ef9930a569f6"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "232b2e65-5e4b-461d-a0d4-fe8645dec804",
+        "__collapse": true
+      },
+      "id": "9b73fb9e-06ad-413c-bbce-adc2e7a968a6"
+    },
+    {
+      "command": "EVENT_CAMERA_SET_POSITION",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "1dfbc5d4-fb4b-4583-bb92-cda89f5eb848"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 2,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": false
+      },
+      "id": "05984d93-b8d6-41cf-8bf0-9b8c00386248"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15,
+        "__collapse": true
+      },
+      "id": "bf7a40bc-a239-4b9c-ac36-43dcea828ac0"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963"
+}

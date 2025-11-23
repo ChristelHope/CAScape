@@ -1,4 +1,15 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "7db47354-1760-4646-963f-00826289093d__L0",
+      "name": "Local 1",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "12fdc320-51ba-428a-834d-bc36f06c135e__L0",
+      "name": "Local 1",
+      "symbol": "var_local_0"
+    }
+  ]
 }

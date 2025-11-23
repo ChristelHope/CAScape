@@ -4,18 +4,26 @@
   "name": "",
   "prefabId": "",
   "x": 23,
-  "y": 13,
+  "y": 12,
   "symbol": "trigger_11",
   "prefabScriptOverrides": {},
   "width": 1,
-  "height": 1,
-  "script": [
+  "height": 2,
+  "script": [],
+  "leaveScript": [
     {
-      "command": "EVENT_ACTOR_MOVE_CANCEL",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "actorId": "$self$"
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0,
+        "__collapse": true
       },
-      "id": "a91a8350-02f5-47ae-958f-9c87359d472d"
+      "id": "513713bc-2805-4716-ba35-d0ca6f31cd00"
     },
     {
       "command": "EVENT_CAMERA_SHAKE",
@@ -28,7 +36,7 @@
           "value": 1
         }
       },
-      "id": "a28966a0-d6d6-4eac-a5c3-7d0062164a22"
+      "id": "27861b7c-9649-4e65-98c0-bb3247aa4fa7"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -46,9 +54,8 @@
         "fadeSpeed": 0,
         "__collapse": false
       },
-      "id": "660d796b-6116-4ca9-a933-06b30012bca4"
+      "id": "66ae5668-dbdf-42d8-bb7e-bbc34fca77e0"
     }
   ],
-  "leaveScript": [],
   "_index": 1
 }

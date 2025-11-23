@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "0179ff57-30c7-46c0-924d-02bd2ecfab82",
-  "_index": 22,
+  "_index": 21,
   "name": "Game Over 4",
   "backgroundId": "1f9a9430-5446-47ec-9f9f-f81eb71eff05",
   "tilesetId": "",
@@ -45,7 +45,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "7db47354-1760-4646-963f-00826289093d",
+              "sceneId": "12fdc320-51ba-428a-834d-bc36f06c135e",
               "x": {
                 "type": "number",
                 "value": 6
