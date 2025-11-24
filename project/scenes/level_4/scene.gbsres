@@ -1,0 +1,68 @@
+{
+  "_resourceType": "scene",
+  "id": "7db47354-1760-4646-963f-00826289093d",
+  "_index": 15,
+  "name": "Level 4",
+  "backgroundId": "5fd0562b-3b29-4410-8d28-2f11ed1447f4",
+  "tilesetId": "",
+  "width": 48,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "004+0f!002f+0f!002f+0f!002f+0f!002f+0f!002f+0f!002f+0f2c+004+0f!01c+00!0f!011d+004+0f!00d+0f!0021+0f!00d+0f!0021+0f!00d+0f!0021+0f!00d+0f!009+08!0fb+004+0f4+004+0f!00d+0f!0014+0f!004+0f!007+0f!00d+0f!005+08!0f3+00b+0f!004+0f!007+0fc+002+0f16+004+0f4+00f+0f!002+0f2+0013+0f!004+0f!0012+0f!002+0f2+0013+0f!004+0f!0012+0f!002+0f2+0013+0f!004+0f!003+",
+  "autoFadeSpeed": 4,
+  "symbol": "scene_17",
+  "x": 1824,
+  "y": 984,
+  "script": [
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": 1,
+        "__collapse": true
+      },
+      "id": "480ca4b3-350b-47d6-8a53-208d6b8ce9f0"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 15,
+        "__collapse": false
+      },
+      "id": "238ed04f-f5a8-4ce9-a9c5-ef2b93c35761"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Keep going, you're\nalmost there!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 3,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "717fdeb5-d35f-45e9-befb-349344a94d58"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963",
+  "autoFadeEventCollapse": false
+}

@@ -1,0 +1,58 @@
+{
+  "_resourceType": "trigger",
+  "id": "f833de2b-bb35-4509-a58a-1213e7a1da5c",
+  "name": "",
+  "prefabId": "",
+  "x": 20,
+  "y": 14,
+  "symbol": "trigger_54",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "stand by",
+        "loopAnim": true
+      },
+      "id": "b716880e-7062-419d-bf26-ef624df648f8"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+      },
+      "id": "548cc670-b2aa-4e69-b979-1b6fcfbf38cb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Casie:\nI need to find \nthe right timing.."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "78e1ce0b-7a1c-4f50-b260-a7238cfc9a20"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 5
+}

@@ -1,0 +1,96 @@
+{
+  "_resourceType": "actor",
+  "id": "44df5379-909d-40d7-95f9-b274159d3f0e",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "6ce871f8-6d7f-47a8-a1fe-88e771cb1b91",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 0.5,
+  "animSpeed": 127,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_36",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.3,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "703ad8c7-82f2-4673-b623-86abbdcb33f6"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "0179ff57-30c7-46c0-924d-02bd2ecfab82",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": false
+      },
+      "id": "a954ed17-b540-49ec-b427-a746b0271ccc"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 23
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": false
+      },
+      "id": "ef309713-4d2b-4777-8404-6c84105fcafb"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 30
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": false
+      },
+      "id": "b330b50a-0a58-4061-94ab-64bef4b8125e"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 26,
+  "y": 8,
+  "_index": 2
+}

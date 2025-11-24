@@ -10,36 +10,40 @@
       "value": "INPUT_UP"
     },
     {
-      "id": "plat_jump_vel",
-      "value": 11669
-    },
-    {
-      "id": "plat_run_acc",
-      "value": 16
-    },
-    {
-      "id": "plat_walk_acc",
-      "value": 117
-    },
-    {
-      "id": "plat_run_vel",
-      "value": 7072
+      "id": "INPUT_PLATFORM_INTERACT",
+      "value": "INPUT_DOWN"
     },
     {
       "id": "plat_walk_vel",
-      "value": 4947
+      "value": 4276
     },
     {
-      "id": "plat_hold_grav",
-      "value": 611
+      "id": "plat_run_vel",
+      "value": 4723
+    },
+    {
+      "id": "plat_walk_acc",
+      "value": 64
+    },
+    {
+      "id": "plat_run_acc",
+      "value": 20
     },
     {
       "id": "plat_grav",
-      "value": 500
+      "value": 302
+    },
+    {
+      "id": "plat_hold_grav",
+      "value": 800
     },
     {
       "id": "plat_max_fall_vel",
-      "value": 15341
+      "value": 15320
+    },
+    {
+      "id": "plat_jump_vel",
+      "value": 11040
     }
   ]
 }

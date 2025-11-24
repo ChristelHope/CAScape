@@ -1,19 +1,21 @@
 {
   "_resourceType": "scene",
   "id": "65ff3f88-7dda-4ea8-a34f-a47fb345e77a",
-  "_index": 4,
+  "_index": 3,
   "name": "reveal gap",
-  "backgroundId": "bf3cb831-0c50-42d0-98a2-fa4da8c03804",
+  "backgroundId": "7cd7c418-eb3b-498f-84f7-0ed608fd91db",
   "tilesetId": "",
   "width": 32,
   "height": 18,
   "type": "PLATFORM",
-  "paletteIds": [],
+  "paletteIds": [
+    "default-bg-2"
+  ],
   "spritePaletteIds": [],
-  "collisions": "002+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!001f+0f11+01!003+01!0f8+0012+0f!08!003+04!0f!006+0f!0012+0f!08!003+04!0f!006+0f!0012+0f!08!003+04!0f!006+0f!",
+  "collisions": "002+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f1e+002+0f!011d+002+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f12+04!002+0f9+0013+0f!04!002+0f!007+0f!0013+0f!04!002+0f!007+0f!0013+0f!003+0f!007+0f!",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
-  "x": 360,
+  "x": 688,
   "y": 272,
   "script": [
     {
@@ -30,6 +32,14 @@
         }
       },
       "id": "f8513d4e-43dd-45e1-9fcb-c56c8444ecc0"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15
+      },
+      "id": "0aa4d66b-8d2f-455a-8b88-47754ce23a5f"
     }
   ],
   "playerHit1Script": [],

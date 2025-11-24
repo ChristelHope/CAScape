@@ -1,15 +1,15 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 374.5,
-  "worldScrollY": 178,
-  "zoom": 148.63680481165648,
+  "worldScrollX": 0,
+  "worldScrollY": 0,
+  "zoom": 34.50456447713077,
   "navigatorSplitSizes": [
-    294,
-    205,
-    205,
-    205
+    400,
+    30,
+    30,
+    30
   ],
-  "showNavigator": true,
+  "showNavigator": false,
   "showCollisions": true,
   "showConnections": "selected",
   "previewAsMono": false,
@@ -24,7 +24,18 @@
   "debuggerCollapsedPanes": [],
   "debuggerPauseOnScriptChanged": false,
   "debuggerPauseOnWatchedVariableChanged": false,
-  "debuggerBreakpoints": [],
+  "debuggerBreakpoints": [
+    {
+      "scriptEventId": "6ebc6bfa-bbef-4d4f-b6c0-c81f0f0f950c",
+      "context": {
+        "type": "entity",
+        "entityType": "scene",
+        "entityId": "3622fc30-8d5f-42bd-98a6-31169e0387f9",
+        "sceneId": "3622fc30-8d5f-42bd-98a6-31169e0387f9",
+        "scriptKey": "script"
+      }
+    }
+  ],
   "debuggerWatchedVariables": [],
   "openBuildLogOnWarnings": true
 }

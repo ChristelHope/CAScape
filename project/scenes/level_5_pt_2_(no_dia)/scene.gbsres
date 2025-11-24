@@ -1,0 +1,46 @@
+{
+  "_resourceType": "scene",
+  "id": "c02f9e51-a91a-4d0c-9df6-3305e3475752",
+  "_index": 29,
+  "name": "Level 5 pt 2 (no dia)",
+  "backgroundId": "e5c0196a-50a0-486d-8685-ac6de78cdfa9",
+  "tilesetId": "",
+  "width": 48,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [
+    "default-bg-2"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "004+0f!002f+0f!002f+0f!002f+0f!002f+0f!002f+0f!002f+0f2c+004+0f!011e+0011+0f!002f+0f!002f+0f!002f+0f!001f+0fc+004+0f!001f+0fc+004+0f!002f+0fb+002f+0f!003+0f5+0027+0f!003+0f!003+0f!0027+0f!003+0f!003+0f!0019+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_30",
+  "x": 2696,
+  "y": 1576,
+  "script": [
+    {
+      "command": "EVENT_CAMERA_LOCK",
+      "args": {
+        "speed": 0,
+        "axis": [
+          "x",
+          "y"
+        ]
+      },
+      "id": "0369c4f7-dec7-4d32-a11d-c963df4017bd"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15
+      },
+      "id": "acd7cd82-4c71-490f-8045-9f955e0654ae"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963"
+}

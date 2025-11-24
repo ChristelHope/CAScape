@@ -15,21 +15,7 @@
   "symbol": "scene_3",
   "x": 80,
   "y": 272,
-  "script": [
-    {
-      "command": "EVENT_ACTOR_EFFECTS",
-      "args": {
-        "effect": "splitIn",
-        "actorId": "$self$",
-        "distance": 20,
-        "speed": 2,
-        "time": 0.5,
-        "frames": 30,
-        "__collapse": true
-      },
-      "id": "6ebc6bfa-bbef-4d4f-b6c0-c81f0f0f950c"
-    }
-  ],
+  "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

@@ -10,12 +10,19 @@
   "type": "PLATFORM",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 87.125,
   "y": 65,
   "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "bde4fcfa-4fbd-49b3-9274-7ab9d1720c07"
+      },
+      "id": "1f720cef-3649-4572-9758-5efb4c53a555"
+    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
@@ -47,9 +54,16 @@
                 "value": 17
               },
               "direction": "",
-              "fadeSpeed": 3
+              "fadeSpeed": 1
             },
             "id": "ee87c26b-0622-473e-9856-51d364f523aa"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "bde4fcfa-4fbd-49b3-9274-7ab9d1720c07"
+            },
+            "id": "4b43a5d1-4293-4a5b-b994-c7fa695b7a6e"
           }
         ]
       },

@@ -3,7 +3,7 @@
   "id": "252b5a84-aeaf-462e-9f82-2fda2010c11f",
   "name": "",
   "prefabId": "",
-  "x": 29,
+  "x": 30,
   "y": 13,
   "symbol": "trigger_1",
   "prefabScriptOverrides": {},
@@ -20,12 +20,13 @@
         },
         "y": {
           "type": "number",
-          "value": 12
+          "value": 13
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__collapse": false
       },
-      "id": "83eea852-df2c-4d6a-ad4d-b4c1f200ed13"
+      "id": "96399f17-022d-4da8-ac9e-6e138846e337"
     }
   ],
   "leaveScript": [],

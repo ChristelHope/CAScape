@@ -1,0 +1,74 @@
+{
+  "_resourceType": "trigger",
+  "id": "45231af1-3d7e-45ea-b8d8-e157cb5fdd14",
+  "name": "",
+  "prefabId": "",
+  "x": 45,
+  "y": 9,
+  "symbol": "trigger_35",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "stand by",
+        "loopAnim": true
+      },
+      "id": "99ac359f-8f63-4d1c-9565-0bf6c72078b6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You did it!\nCongratulations."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 3,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "cb98d9d2-1bae-4bc4-9c24-46f3ed0f2217"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "ed08e045-bb27-4906-9e95-10a2a8203bb7",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "direction": "",
+        "fadeSpeed": 2
+      },
+      "id": "1639c428-d9a9-486e-831f-9799b9296e7a"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "163721c1-b722-4491-8351-033cbeb70e02"
+    }
+  ],
+  "_index": 4
+}

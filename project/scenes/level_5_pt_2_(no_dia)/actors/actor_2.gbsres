@@ -1,0 +1,68 @@
+{
+  "_resourceType": "actor",
+  "id": "d3a8ec0e-33f8-4c88-b731-9d26382eff5d",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0ace7eff-0a57-4ed7-9324-a375bc044e9f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_43",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 1,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "25e9a669-5f76-435a-972c-ae2207b3d1b9"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "bomb activate",
+        "loopAnim": false
+      },
+      "id": "84762e2a-c351-4ef7-b6d0-3ca1671572db"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "0435d9de-cf46-4197-ba79-f79913c69259",
+        "x": {
+          "type": "number",
+          "value": 18
+        },
+        "y": {
+          "type": "number",
+          "value": 6
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "e5064924-f31f-4088-9f33-69e65611f7b5"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 11,
+  "y": 13,
+  "_index": 1
+}

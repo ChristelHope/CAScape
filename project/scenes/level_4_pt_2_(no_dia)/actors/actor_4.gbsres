@@ -1,0 +1,114 @@
+{
+  "_resourceType": "actor",
+  "id": "4440d3b4-b376-40e7-8c36-b3d0d0c5dbfc",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "2875ec67-6338-49e8-949b-e875d181d8c6",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 0.5,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_41",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.3,
+        "wait": true,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "9c3aaabd-3a53-423c-82c4-df1c0ac89bd0"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "0179ff57-30c7-46c0-924d-02bd2ecfab82",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 5
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "d1e36195-9139-42a1-a898-92a3fae8a6b9"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__comment": true,
+        "__collapse": true
+      },
+      "id": "c9936b73-73e8-4feb-87da-fa5a8a532852"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 2,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__comment": true,
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 12
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__comment": false,
+              "__collapse": true
+            },
+            "id": "ea729ab0-a873-4db5-88e0-aa83d73cb2bb"
+          }
+        ]
+      },
+      "id": "44f6b39b-4af9-46e8-8a0c-66819efcbfde"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 12,
+  "y": 13,
+  "_index": 3
+}

@@ -4,6 +4,46 @@
     {
       "id": "fade_style",
       "value": 0
+    },
+    {
+      "id": "INPUT_PLATFORM_JUMP",
+      "value": "INPUT_UP"
+    },
+    {
+      "id": "INPUT_PLATFORM_INTERACT",
+      "value": "INPUT_DOWN"
+    },
+    {
+      "id": "plat_walk_vel",
+      "value": 4270
+    },
+    {
+      "id": "plat_run_vel",
+      "value": 4723
+    },
+    {
+      "id": "plat_walk_acc",
+      "value": 60
+    },
+    {
+      "id": "plat_run_acc",
+      "value": 16
+    },
+    {
+      "id": "plat_grav",
+      "value": 302
+    },
+    {
+      "id": "plat_hold_grav",
+      "value": 810
+    },
+    {
+      "id": "plat_max_fall_vel",
+      "value": 15310
+    },
+    {
+      "id": "plat_jump_vel",
+      "value": 11030
     }
   ]
 }

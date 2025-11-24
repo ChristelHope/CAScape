@@ -1,0 +1,98 @@
+{
+  "_resourceType": "actor",
+  "id": "e80d0121-0a60-4fa2-beaf-5b690cf1ae06",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "cf5b4097-c6ec-44b5-abc0-105b9e326891",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 0.25,
+  "animSpeed": 127,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_48",
+  "script": [
+    {
+      "command": "EVENT_PLAYER_BOUNCE",
+      "args": {
+        "height": "low"
+      },
+      "id": "b9deff75-4997-401e-ab6d-4fe5e8729195"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "priority": "medium",
+        "pitch": 8,
+        "frequency": 350,
+        "duration": 0.1,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "4fde8e17-1433-4418-9f1d-01e2254dbb8c"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "args": {
+        "actorId": "e80d0121-0a60-4fa2-beaf-5b690cf1ae06"
+      },
+      "id": "58f9c513-9a6e-48c4-b8c7-5ed033d58d21"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "args": {
+        "actorId": "player"
+      },
+      "id": "fadc20eb-66ba-4237-8ed3-5c8f86beefa8"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 23
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": false
+      },
+      "id": "16278901-9562-429f-9285-ae05b590280f"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 27
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "133d34dd-9684-4531-8bbd-d320f480885e"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 24,
+  "y": 14,
+  "_index": 4
+}
