@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "f2a2b83f-d67b-4096-a5f9-e9bcad9a64f5",
+  "id": "7fe9eb9d-4d70-47fc-8e41-ba84f66c6bd6",
   "name": "",
   "prefabId": "",
-  "x": 13,
+  "x": 15,
   "y": 13,
-  "symbol": "trigger_39",
+  "symbol": "trigger_20",
   "prefabScriptOverrides": {},
   "width": 1,
   "height": 1,
@@ -23,7 +23,7 @@
         "__collapse": true,
         "__comment": true
       },
-      "id": "ccac9b2c-bdfd-4f00-963b-4d20b6cb95e4"
+      "id": "3a6ce8e2-9aca-49c0-9fa4-2655cd7a9a89"
     },
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -37,7 +37,7 @@
         "effect": 0,
         "__comment": true
       },
-      "id": "e35207d6-da35-41aa-90cb-be412aa10674"
+      "id": "f3bc063d-04e0-449c-8015-a53fecedcdb0"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -55,25 +55,10 @@
         "fadeSpeed": 0,
         "__comment": true
       },
-      "id": "918f88cc-14f7-4e3f-8bbf-1743b6cb0795"
+      "id": "ead2bc4b-47dc-4a46-8533-8d9c6ac9ded9"
     }
   ],
   "leaveScript": [
-    {
-      "command": "EVENT_CAMERA_SHAKE",
-      "args": {
-        "time": 0.5,
-        "frames": 30,
-        "shakeDirection": "horizontal",
-        "magnitude": {
-          "type": "number",
-          "value": 1
-        },
-        "__collapse": true,
-        "__comment": false
-      },
-      "id": "7cebf57c-7732-40ef-a2f1-5a2772bd8c55"
-    },
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
@@ -87,12 +72,27 @@
         "__comment": false,
         "__collapse": true
       },
-      "id": "beed264b-54c6-4961-8e8e-df1ff61fcb7f"
+      "id": "901f498f-e9ed-44dc-bca9-cc1f24132eab"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "d270c832-2f37-4fc4-ba1d-6569e1d0344c"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "118a6e64-1def-4fcc-89a5-f6f18911ce2b",
+        "sceneId": "744d42fb-5d41-4824-b79a-5bc7f46f3e5b",
         "x": {
           "type": "number",
           "value": 14
@@ -105,7 +105,7 @@
         "fadeSpeed": 0,
         "__comment": false
       },
-      "id": "11f451be-131e-47ea-a621-7178b11f5edb"
+      "id": "51091562-3310-493f-9c3e-94dd628a5df9"
     }
   ],
   "_index": 1

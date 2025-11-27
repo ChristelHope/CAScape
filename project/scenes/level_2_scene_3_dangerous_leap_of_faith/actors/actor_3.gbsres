@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "562da900-2061-4f71-a02c-e4a93c902c02",
+  "id": "76b2f0a4-986e-4cd3-9dad-2af5dfbc2db5",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -27,24 +27,72 @@
         "wait": false,
         "effect": 0
       },
-      "id": "b775b1bd-836b-4d8e-86e3-8efdbd72f818"
+      "id": "d5170d07-86be-4069-b4c2-222d5e87c3eb"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_DEC_VALUE",
       "args": {
-        "sceneId": "07b5ca56-bece-4c0b-9f5d-303ee0f89b26",
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 0
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "variable": "0"
       },
-      "id": "481e45ca-e4e7-4128-a8e0-df9a403689f8"
+      "id": "2503a263-b6be-4f78-ac7f-d96d09fea852"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "07b5ca56-bece-4c0b-9f5d-303ee0f89b26",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "c4be3b32-d152-4c07-b8d6-ade6371acde4"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a20e6a6c-591a-43bb-b535-f5e84f2beae2",
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "e9e02e1b-ca01-421b-8904-4c4caf1612b4"
+          }
+        ]
+      },
+      "id": "411323c1-c7d3-4989-8511-250d012ea7d4"
     }
   ],
   "startScript": [],

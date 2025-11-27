@@ -38,17 +38,17 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "aa19d448-41bd-48c7-80af-fdb52ed21ebd",
+              "sceneId": "3622fc30-8d5f-42bd-98a6-31169e0387f9",
               "x": {
                 "type": "number",
-                "value": 5
+                "value": 4
               },
               "y": {
                 "type": "number",

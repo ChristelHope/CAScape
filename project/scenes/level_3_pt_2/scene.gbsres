@@ -26,6 +26,16 @@
         "__collapse": false
       },
       "id": "6cfaeed8-e7c1-49d6-99e5-8b3a3d321dc5"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Lives: $00$",
+        "x": 16,
+        "y": 6,
+        "location": "background"
+      },
+      "id": "d3e153ee-d5f7-49a0-89d7-a22e2b6deb6e"
     }
   ],
   "playerHit1Script": [],

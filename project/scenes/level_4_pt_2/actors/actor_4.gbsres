@@ -1,20 +1,20 @@
 {
   "_resourceType": "actor",
-  "id": "87504614-a800-4446-88e4-6f72cb054a62",
+  "id": "343698bd-d594-4988-8646-0fdb4e5c76df",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "2875ec67-6338-49e8-949b-e875d181d8c6",
+  "spriteSheetId": "0ace7eff-0a57-4ed7-9324-a375bc044e9f",
   "prefabId": "",
-  "direction": "down",
-  "moveSpeed": 0.5,
-  "animSpeed": 255,
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": true,
   "collisionGroup": "1",
   "prefabScriptOverrides": {},
-  "symbol": "actor_15",
+  "symbol": "actor_39",
   "script": [
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -24,91 +24,84 @@
         "pitch": 2,
         "frequency": 200,
         "duration": 0.3,
-        "wait": true,
+        "wait": false,
         "effect": 0,
         "__collapse": true
       },
-      "id": "1226d046-43b8-4843-9202-628b20676e43"
+      "id": "9db0abf3-ec66-4913-898d-beecbeb82aae"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_DEC_VALUE",
       "args": {
-        "sceneId": "0179ff57-30c7-46c0-924d-02bd2ecfab82",
-        "x": {
-          "type": "number",
-          "value": 10
-        },
-        "y": {
-          "type": "number",
-          "value": 5
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "variable": "0"
       },
-      "id": "a54587da-a579-4a8a-91c5-fca710064b36"
-    }
-  ],
-  "startScript": [],
-  "updateScript": [
-    {
-      "command": "EVENT_ACTOR_MOVE_TO",
-      "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 9
-        },
-        "y": {
-          "type": "number",
-          "value": 13
-        },
-        "moveType": "horizontal",
-        "useCollisions": false,
-        "__comment": true,
-        "__collapse": true
-      },
-      "id": "0934da0c-f415-41cd-a521-ec0f2ee8e3d4"
+      "id": "e09c6dfa-84c1-4246-ad08-94053d8e400e"
     },
     {
-      "command": "EVENT_SET_TIMER_SCRIPT",
+      "command": "EVENT_IF",
       "args": {
-        "timer": 1,
-        "duration": 2,
-        "frames": 30,
-        "__scriptTabs": "end",
-        "__comment": true,
-        "__collapse": true
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
       },
       "children": {
-        "script": [
+        "true": [
           {
-            "command": "EVENT_ACTOR_MOVE_TO",
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "actorId": "$self$",
+              "sceneId": "0179ff57-30c7-46c0-924d-02bd2ecfab82",
               "x": {
                 "type": "number",
-                "value": 12
+                "value": 17
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "c676ed28-ae1b-43b0-af92-47fe8f2b2011"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "12fdc320-51ba-428a-834d-bc36f06c135e",
+              "x": {
+                "type": "number",
+                "value": 6
               },
               "y": {
                 "type": "number",
                 "value": 13
               },
-              "moveType": "horizontal",
-              "useCollisions": false,
-              "__comment": false,
-              "__collapse": true
+              "direction": "",
+              "fadeSpeed": "2"
             },
-            "id": "d99fb6c8-4f56-456a-bb12-279bed3ac173"
+            "id": "9a709929-3150-475f-a68d-27f54cb75fad"
           }
         ]
       },
-      "id": "283cf3ae-72a3-45e5-8688-0991e3ac3828"
+      "id": "958c5732-8573-48fe-a182-f4ab41000691"
     }
   ],
+  "startScript": [],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 12,
-  "y": 13,
+  "x": 32,
+  "y": 10,
   "_index": 3
 }

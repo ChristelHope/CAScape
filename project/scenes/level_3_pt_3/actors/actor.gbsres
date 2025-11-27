@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "05b653f8-eb91-41f8-8aff-42df1225cc8b",
+  "id": "bf7c6c39-4195-439f-983a-35c488695882",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -27,24 +27,73 @@
         "wait": false,
         "effect": 0
       },
-      "id": "555dbff2-f1b7-4058-9f46-d620f4136ec3"
+      "id": "bc631c72-4244-4859-834f-f4e69d6fcf9d"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_DEC_VALUE",
       "args": {
-        "sceneId": "0336e664-9fbe-4a5d-a0b6-7c49fdd6e49e",
-        "x": {
-          "type": "number",
-          "value": 4
-        },
-        "y": {
-          "type": "number",
-          "value": 0
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "variable": "0"
       },
-      "id": "2ad4903b-302b-4cf7-93c3-6aa80c9276d1"
+      "id": "1d3d9d8b-c303-4fda-9f47-a008d7a1777d"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "0336e664-9fbe-4a5d-a0b6-7c49fdd6e49e",
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "c0291631-89b3-452e-a834-fefae23742be"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "d7ef5002-ad6a-4347-9317-cd1fd4181aa3",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "29b22dcc-d1b9-4c91-928f-596212b8c011"
+          }
+        ]
+      },
+      "id": "fe473223-5344-475c-b848-4a8614f888d6"
     }
   ],
   "startScript": [],
@@ -63,27 +112,45 @@
         },
         "moveType": "horizontal",
         "useCollisions": false,
-        "__comment": true
+        "__comment": true,
+        "__collapse": true
       },
-      "id": "c4c65bd6-1021-44d4-9ba9-048bf05d1383"
+      "id": "d928a85f-0b09-417b-8eca-9216c5243d42"
     },
     {
-      "command": "EVENT_ACTOR_MOVE_TO",
+      "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 12
-        },
-        "y": {
-          "type": "number",
-          "value": 13
-        },
-        "moveType": "horizontal",
-        "useCollisions": false,
-        "__comment": true
+        "timer": 1,
+        "duration": 2,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__comment": true,
+        "__collapse": true
       },
-      "id": "2f3ada39-e833-4121-8964-b4cabfa25f2d"
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 12
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__comment": false,
+              "__collapse": true
+            },
+            "id": "3ff79a7f-7a34-4c17-b10f-eb9428441ed3"
+          }
+        ]
+      },
+      "id": "afd8e73c-bf28-4f05-b91e-479f573b09ac"
     }
   ],
   "hit1Script": [],

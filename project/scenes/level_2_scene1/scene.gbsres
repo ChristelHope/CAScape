@@ -25,7 +25,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Aftershocks &\nhazards caused\nby the earthquake \nahead!"
+          "Beware of\naftershocks and \nhazards!!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -68,7 +68,8 @@
         "closeWhen": "text",
         "closeButton": "any",
         "closeDelayTime": 3,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "9d0ff388-a79a-4f56-bcb3-9fa471669f03"
     },
@@ -79,6 +80,16 @@
         "speed": 15
       },
       "id": "6c0c3e85-7028-4089-90ec-d1e00bdec227"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Lives: $00$",
+        "x": 5,
+        "y": 6,
+        "location": "background"
+      },
+      "id": "ab916e96-f7bc-42f0-96e4-49a7a8c3b594"
     }
   ],
   "playerHit1Script": [],

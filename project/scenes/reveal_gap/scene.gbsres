@@ -34,6 +34,16 @@
       "id": "f8513d4e-43dd-45e1-9fcb-c56c8444ecc0"
     },
     {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Lives: $00$",
+        "x": 12,
+        "y": 6,
+        "location": "background"
+      },
+      "id": "e9a42ddf-80d9-4ff8-afe8-28a8adecc05c"
+    },
+    {
       "command": "EVENT_ACTOR_EMOTE",
       "args": {
         "actorId": "$self$",
@@ -53,6 +63,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false,
+  "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963"
 }

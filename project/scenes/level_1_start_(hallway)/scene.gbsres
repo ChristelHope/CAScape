@@ -24,6 +24,14 @@
       "id": "e5f3127c-621a-49b2-8083-a6420011a640"
     },
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "232b2e65-5e4b-461d-a0d4-fe8645dec804",
+        "__collapse": true
+      },
+      "id": "573a2c9a-e3b8-410b-8521-63b2bd14dda8"
+    },
+    {
       "command": "EVENT_CAMERA_SET_POSITION",
       "args": {
         "x": {
@@ -37,14 +45,6 @@
         "__collapse": true
       },
       "id": "96f56542-98e2-4129-adf4-3aed1d86e54f"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "232b2e65-5e4b-461d-a0d4-fe8645dec804",
-        "__collapse": true
-      },
-      "id": "573a2c9a-e3b8-410b-8521-63b2bd14dda8"
     },
     {
       "command": "EVENT_CAMERA_SHAKE",
@@ -82,7 +82,7 @@
         "closeButton": "any",
         "closeDelayTime": 3,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "e9fee575-1255-4c4c-8e6d-e7c000ddb3da"
     },
@@ -120,6 +120,27 @@
         "__collapse": true
       },
       "id": "d43c0750-28f9-498a-9e4a-6be91ddf8cd0"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "number",
+          "value": 5
+        }
+      },
+      "id": "8e19849c-e790-4987-bd67-ced13d327f38"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Lives: $00$",
+        "x": 5,
+        "y": 6,
+        "location": "background"
+      },
+      "id": "5583913f-d8c4-476f-8a1c-b065c99de245"
     }
   ],
   "playerHit1Script": [],

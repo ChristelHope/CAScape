@@ -1,44 +1,56 @@
 {
   "_resourceType": "trigger",
-  "id": "dc0ec1f7-512e-4568-ad56-5ffd0b898949",
+  "id": "f833de2b-bb35-4509-a58a-1213e7a1da5c",
   "name": "",
   "prefabId": "",
-  "x": 27,
-  "y": 17,
-  "symbol": "trigger_34",
+  "x": 20,
+  "y": 14,
+  "symbol": "trigger_54",
   "prefabScriptOverrides": {},
-  "width": 21,
+  "width": 1,
   "height": 1,
   "script": [
     {
-      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "command": "EVENT_ACTOR_SET_STATE",
       "args": {
-        "type": "beep",
-        "priority": "medium",
-        "pitch": 2,
-        "frequency": 200,
-        "duration": 0.5,
-        "wait": false,
-        "effect": 0
+        "actorId": "$self$",
+        "spriteStateId": "stand by",
+        "loopAnim": true
       },
-      "id": "6655e438-e09b-423d-b8b6-a2716b1ccfb2"
+      "id": "b716880e-7062-419d-bf26-ef624df648f8"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_ACTOR_EMOTE",
       "args": {
-        "sceneId": "0435d9de-cf46-4197-ba79-f79913c69259",
-        "x": {
-          "type": "number",
-          "value": 14
-        },
-        "y": {
-          "type": "number",
-          "value": 6
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "actorId": "$self$",
+        "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
       },
-      "id": "4869be18-e786-4b63-b0ca-caf0cb6adc19"
+      "id": "548cc670-b2aa-4e69-b979-1b6fcfbf38cb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Casie:\nI need to find \nthe right timing.."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "78e1ce0b-7a1c-4f50-b260-a7238cfc9a20"
     }
   ],
   "leaveScript": [],

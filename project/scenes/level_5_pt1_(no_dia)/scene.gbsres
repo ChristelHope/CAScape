@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "aa19d448-41bd-48c7-80af-fdb52ed21ebd",
   "_index": 25,
-  "name": "Level 5 (no dia)",
+  "name": "Level 5 pt1 (no dia)",
   "backgroundId": "5ef55813-9575-46cf-8104-10a92d414d1e",
   "tilesetId": "",
   "width": 48,
@@ -26,6 +26,16 @@
         "__collapse": true
       },
       "id": "0dd83e2b-7553-4285-b741-26f5c4d96240"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Lives: $lives",
+        "x": 6,
+        "y": 6,
+        "location": "background"
+      },
+      "id": "c999cfd9-fe95-4c19-9b2f-90b0f428db4e"
     }
   ],
   "playerHit1Script": [],

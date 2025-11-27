@@ -55,6 +55,16 @@
         "__collapse": true
       },
       "id": "bf7a40bc-a239-4b9c-ac36-43dcea828ac0"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Lives: $00$",
+        "x": 5,
+        "y": 6,
+        "location": "background"
+      },
+      "id": "1b25766f-d999-4ce8-a70e-42e5d16b3e55"
     }
   ],
   "playerHit1Script": [],

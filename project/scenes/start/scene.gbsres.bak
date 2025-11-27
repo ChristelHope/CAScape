@@ -13,9 +13,23 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 304,
-  "y": 64,
+  "x": 952,
+  "y": 48,
   "script": [
+    {
+      "command": "EVENT_CAMERA_SET_POSITION",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "4c0ad138-592e-4e21-9abf-bbe859082c39"
+    },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
@@ -62,12 +76,66 @@
       "id": "8cdada2d-aa4f-4213-bfb1-5b22f73385cb"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 5
+        }
+      },
+      "id": "36620b22-c9f1-490f-993c-b3a96531765f"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "start",
+          "select",
+          "right",
+          "down",
+          "up",
+          "left"
+        ],
+        "__collapse": false
+      },
+      "id": "fe84dee2-7512-4fd2-84c6-f312d83854d4"
+    },
+    {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
         "__collapse": true
       },
       "id": "c6611361-dbe8-42e7-a61f-434e740c13db"
+    },
+    {
+      "command": "EVENT_LOOP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "3622fc30-8d5f-42bd-98a6-31169e0387f9",
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "b8e272bb-e716-4dc8-9d20-06b6c386799f"
+          }
+        ]
+      },
+      "id": "7f93395d-1df8-4bcb-97c3-25761081823f"
     }
   ],
   "playerHit1Script": [],

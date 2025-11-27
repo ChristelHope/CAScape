@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "12b10d8c-3bf6-49ed-92ab-c07263ffc567",
+  "id": "cdf9c66d-0a4e-480f-a6df-81d4d60a3c9d",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -27,24 +27,73 @@
         "wait": false,
         "effect": 0
       },
-      "id": "8ed8b206-796f-4c7b-8962-ca91e9bf4da6"
+      "id": "36778d6e-1b28-4dda-8e78-34d2323278db"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_DEC_VALUE",
       "args": {
-        "sceneId": "07b5ca56-bece-4c0b-9f5d-303ee0f89b26",
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 0
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "variable": "0"
       },
-      "id": "805e5977-041e-4670-8349-870ce1934dfa"
+      "id": "b0de3ba0-11c0-4291-ac4a-2b1549cd12bd"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "07b5ca56-bece-4c0b-9f5d-303ee0f89b26",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "62dbd8e2-6961-47b1-8a86-cc718f4fcf0e"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a20e6a6c-591a-43bb-b535-f5e84f2beae2",
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "17a92774-892b-4a03-8009-d667561f242b"
+          }
+        ]
+      },
+      "id": "9b52949d-1eed-4ff9-9ad9-c0fc4d8b1f27"
     }
   ],
   "startScript": [],

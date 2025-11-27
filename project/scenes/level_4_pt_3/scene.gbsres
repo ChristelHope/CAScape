@@ -23,6 +23,16 @@
         "speed": 15
       },
       "id": "59d323fc-df44-47a5-8fd7-11f35a485de7"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Lives: $00$",
+        "x": 19,
+        "y": 6,
+        "location": "background"
+      },
+      "id": "0ccce68a-578f-46c3-8037-f4781653a518"
     }
   ],
   "playerHit1Script": [],

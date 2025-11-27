@@ -1,46 +1,79 @@
 {
   "_resourceType": "trigger",
-  "id": "1161b31c-6c38-413e-9e12-269f471739d4",
+  "id": "f06c0df0-934b-44be-ab06-9bb559dd1cfc",
   "name": "",
   "prefabId": "",
-  "x": 15,
-  "y": 17,
-  "symbol": "trigger_49",
+  "x": 45,
+  "y": 9,
+  "symbol": "trigger_53",
   "prefabScriptOverrides": {},
-  "width": 4,
-  "height": 1,
+  "width": 2,
+  "height": 2,
   "script": [
     {
-      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "command": "EVENT_ACTOR_SET_STATE",
       "args": {
-        "type": "beep",
-        "priority": "medium",
-        "pitch": 2,
-        "frequency": 100,
-        "duration": 0.5,
-        "wait": false,
-        "effect": 0
+        "actorId": "$self$",
+        "spriteStateId": "stand by",
+        "loopAnim": true
       },
-      "id": "c9714491-4b03-4016-a17d-9aabfe647cf1"
+      "id": "c80c2b03-f74d-4a8b-9f9a-42a533bf14b7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You did it!\nCongratulations."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 3,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "eeaf5cd3-1e62-489c-a9dc-8d650eee7747"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "95e92ded-91e9-4fb6-9632-60bf2337279c"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "0435d9de-cf46-4197-ba79-f79913c69259",
+        "sceneId": "ed08e045-bb27-4906-9e95-10a2a8203bb7",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 9
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 15
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": 2
       },
-      "id": "3108c9c8-6545-4077-b68a-3d51cb6892f8"
+      "id": "899457fa-a271-4d7d-bae5-b05053b0f714"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "60ef1955-fae8-45e6-8702-1ab2a9c2d6f3"
+    }
+  ],
   "_index": 0
 }

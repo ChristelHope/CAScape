@@ -1,46 +1,74 @@
 {
   "_resourceType": "trigger",
-  "id": "d409d2ff-5719-4125-a19b-d5e4f105c9fd",
+  "id": "45231af1-3d7e-45ea-b8d8-e157cb5fdd14",
   "name": "",
   "prefabId": "",
-  "x": 15,
-  "y": 17,
-  "symbol": "trigger_32",
+  "x": 45,
+  "y": 9,
+  "symbol": "trigger_35",
   "prefabScriptOverrides": {},
-  "width": 4,
-  "height": 1,
+  "width": 2,
+  "height": 2,
   "script": [
     {
-      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "command": "EVENT_ACTOR_SET_STATE",
       "args": {
-        "type": "beep",
-        "priority": "medium",
-        "pitch": 2,
-        "frequency": 100,
-        "duration": 0.5,
-        "wait": false,
-        "effect": 0
+        "actorId": "$self$",
+        "spriteStateId": "stand by",
+        "loopAnim": true
       },
-      "id": "b0d63636-34fb-4b7b-9e3e-958c0290c391"
+      "id": "99ac359f-8f63-4d1c-9565-0bf6c72078b6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You did it!\nCongratulations."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 3,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "cb98d9d2-1bae-4bc4-9c24-46f3ed0f2217"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "0435d9de-cf46-4197-ba79-f79913c69259",
+        "sceneId": "ed08e045-bb27-4906-9e95-10a2a8203bb7",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 9
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 15
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": 2
       },
-      "id": "d172cbbb-3a56-43f2-848c-6641a2a5f630"
+      "id": "1639c428-d9a9-486e-831f-9799b9296e7a"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "163721c1-b722-4491-8351-033cbeb70e02"
+    }
+  ],
   "_index": 0
 }

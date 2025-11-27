@@ -1,98 +1,107 @@
 {
   "_resourceType": "actor",
-  "id": "02a98c78-f532-45e4-9172-b541bedd01aa",
+  "id": "9976f9de-a50e-4d63-a3eb-1891418f28fc",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "cf5b4097-c6ec-44b5-abc0-105b9e326891",
+  "spriteSheetId": "0ace7eff-0a57-4ed7-9324-a375bc044e9f",
   "prefabId": "",
   "direction": "right",
-  "moveSpeed": 0.25,
-  "animSpeed": 127,
+  "moveSpeed": 1,
+  "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": true,
   "collisionGroup": "1",
   "prefabScriptOverrides": {},
-  "symbol": "actor_19",
+  "symbol": "actor_47",
   "script": [
-    {
-      "command": "EVENT_PLAYER_BOUNCE",
-      "args": {
-        "height": "low"
-      },
-      "id": "b4c97cf8-7c70-45fe-8ed9-bbd653636f73"
-    },
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "type": "tone",
+        "type": "beep",
         "priority": "medium",
-        "pitch": 8,
-        "frequency": 350,
-        "duration": 0.1,
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.3,
         "wait": false,
-        "effect": 0
+        "effect": 0,
+        "__collapse": true
       },
-      "id": "610abc21-c53d-42a9-a17f-2cdfa847ab44"
+      "id": "d7caf56b-deeb-45d3-89c6-46f5710b5cfa"
     },
     {
-      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "command": "EVENT_DEC_VALUE",
       "args": {
-        "actorId": "02a98c78-f532-45e4-9172-b541bedd01aa"
+        "variable": "0"
       },
-      "id": "fe01083a-5be4-44fa-bb3d-1bd4ea590201"
+      "id": "37c4a8e5-3e65-44e1-9ec3-3c40391aa4d7"
     },
     {
-      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "command": "EVENT_IF",
       "args": {
-        "actorId": "player"
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "226630ce-4a10-4e5c-95dc-8619e468bfd4"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "0435d9de-cf46-4197-ba79-f79913c69259",
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "13588bb3-da46-4c1b-aae1-0df118eee6ba"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "cc1ad70b-57f3-4688-b091-a44b5d5e960b",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "71acf29a-86ad-43d0-95d4-975be6122c15"
+          }
+        ]
+      },
+      "id": "02736606-305f-4b70-8985-9cdcf5b761e4"
     }
   ],
   "startScript": [],
-  "updateScript": [
-    {
-      "command": "EVENT_ACTOR_MOVE_TO",
-      "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 23
-        },
-        "y": {
-          "type": "number",
-          "value": 14
-        },
-        "moveType": "horizontal",
-        "useCollisions": false,
-        "__collapse": false
-      },
-      "id": "8e677c71-47f0-4ef3-9385-bde6d9c96484"
-    },
-    {
-      "command": "EVENT_ACTOR_MOVE_TO",
-      "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 27
-        },
-        "y": {
-          "type": "number",
-          "value": 14
-        },
-        "moveType": "horizontal",
-        "useCollisions": false
-      },
-      "id": "97f39615-3130-4f18-bc15-f1d86188b286"
-    }
-  ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 24,
-  "y": 14,
+  "x": 40,
+  "y": 10,
   "_index": 4
 }

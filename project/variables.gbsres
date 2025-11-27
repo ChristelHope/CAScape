@@ -2,6 +2,11 @@
   "_resourceType": "variables",
   "variables": [
     {
+      "id": "0",
+      "name": "Lives",
+      "symbol": "var_lives"
+    },
+    {
       "id": "7db47354-1760-4646-963f-00826289093d__L0",
       "name": "Local 1",
       "symbol": "var_local_1"
@@ -10,6 +15,11 @@
       "id": "12fdc320-51ba-428a-834d-bc36f06c135e__L0",
       "name": "Local 1",
       "symbol": "var_local_0"
+    },
+    {
+      "id": "345a05ba-7f4f-4dd9-a01c-dbe2d817faa7__L0",
+      "name": "Player Lives",
+      "symbol": "var_player_lives"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "7db47354-1760-4646-963f-00826289093d",
   "_index": 15,
-  "name": "Level 4",
+  "name": "Level 4 pt1",
   "backgroundId": "5fd0562b-3b29-4410-8d28-2f11ed1447f4",
   "tilesetId": "",
   "width": 48,
@@ -58,6 +58,16 @@
         "__collapse": false
       },
       "id": "717fdeb5-d35f-45e9-befb-349344a94d58"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Lives: $00$",
+        "x": 6,
+        "y": 6,
+        "location": "background"
+      },
+      "id": "2d7dd3e5-15c8-4df7-9656-c74246604a53"
     }
   ],
   "playerHit1Script": [],

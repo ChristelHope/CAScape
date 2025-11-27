@@ -1,98 +1,107 @@
 {
   "_resourceType": "actor",
-  "id": "e80d0121-0a60-4fa2-beaf-5b690cf1ae06",
+  "id": "e01a6e71-24d4-4a01-b351-28f53038878f",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "cf5b4097-c6ec-44b5-abc0-105b9e326891",
+  "spriteSheetId": "0ace7eff-0a57-4ed7-9324-a375bc044e9f",
   "prefabId": "",
   "direction": "right",
-  "moveSpeed": 0.25,
-  "animSpeed": 127,
+  "moveSpeed": 1,
+  "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": true,
   "collisionGroup": "1",
   "prefabScriptOverrides": {},
-  "symbol": "actor_48",
+  "symbol": "actor_42",
   "script": [
-    {
-      "command": "EVENT_PLAYER_BOUNCE",
-      "args": {
-        "height": "low"
-      },
-      "id": "b9deff75-4997-401e-ab6d-4fe5e8729195"
-    },
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "type": "tone",
+        "type": "beep",
         "priority": "medium",
-        "pitch": 8,
-        "frequency": 350,
-        "duration": 0.1,
+        "pitch": 2,
+        "frequency": 200,
+        "duration": 0.3,
         "wait": false,
-        "effect": 0
+        "effect": 0,
+        "__collapse": true
       },
-      "id": "4fde8e17-1433-4418-9f1d-01e2254dbb8c"
+      "id": "e33fdf84-3652-4150-a5cd-8d9af3b81f31"
     },
     {
-      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "command": "EVENT_DEC_VALUE",
       "args": {
-        "actorId": "e80d0121-0a60-4fa2-beaf-5b690cf1ae06"
+        "variable": "0"
       },
-      "id": "58f9c513-9a6e-48c4-b8c7-5ed033d58d21"
+      "id": "ddec4f65-1f5b-4153-b77d-1fb82f581eac"
     },
     {
-      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "command": "EVENT_IF",
       "args": {
-        "actorId": "player"
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "fadc20eb-66ba-4237-8ed3-5c8f86beefa8"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "0435d9de-cf46-4197-ba79-f79913c69259",
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "ed28c83a-9a0a-4ec5-8cc5-59ef1d4fa832"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "cc1ad70b-57f3-4688-b091-a44b5d5e960b",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "1207916c-3da3-4280-810f-cfd1934a00a7"
+          }
+        ]
+      },
+      "id": "90fb3c55-35d0-4b32-9a00-5a3c80cfb1bf"
     }
   ],
   "startScript": [],
-  "updateScript": [
-    {
-      "command": "EVENT_ACTOR_MOVE_TO",
-      "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 23
-        },
-        "y": {
-          "type": "number",
-          "value": 14
-        },
-        "moveType": "horizontal",
-        "useCollisions": false,
-        "__collapse": false
-      },
-      "id": "16278901-9562-429f-9285-ae05b590280f"
-    },
-    {
-      "command": "EVENT_ACTOR_MOVE_TO",
-      "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 27
-        },
-        "y": {
-          "type": "number",
-          "value": 14
-        },
-        "moveType": "horizontal",
-        "useCollisions": false
-      },
-      "id": "133d34dd-9684-4531-8bbd-d320f480885e"
-    }
-  ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 24,
-  "y": 14,
+  "x": 40,
+  "y": 10,
   "_index": 4
 }

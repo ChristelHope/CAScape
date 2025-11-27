@@ -1,20 +1,20 @@
 {
   "_resourceType": "actor",
-  "id": "45bf3997-ee13-44ef-a4dc-d85b7c05cb24",
+  "id": "5c86c304-ee6c-43c1-9fa1-7ced335b95f5",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "6ce871f8-6d7f-47a8-a1fe-88e771cb1b91",
+  "spriteSheetId": "0ace7eff-0a57-4ed7-9324-a375bc044e9f",
   "prefabId": "",
   "direction": "right",
-  "moveSpeed": 0.5,
-  "animSpeed": 127,
+  "moveSpeed": 1,
+  "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": true,
   "collisionGroup": "1",
   "prefabScriptOverrides": {},
-  "symbol": "actor_13",
+  "symbol": "actor_16",
   "script": [
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -25,72 +25,84 @@
         "frequency": 200,
         "duration": 0.3,
         "wait": false,
-        "effect": 0
+        "effect": 0,
+        "__collapse": true
       },
-      "id": "f3ae87d3-001e-4243-af69-f190b93671ef"
+      "id": "1d5f61d1-23b7-4fb8-8aec-0a97c2059459"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_DEC_VALUE",
       "args": {
-        "sceneId": "0179ff57-30c7-46c0-924d-02bd2ecfab82",
-        "x": {
-          "type": "number",
-          "value": 8
-        },
-        "y": {
-          "type": "number",
-          "value": 8
-        },
-        "direction": "",
-        "fadeSpeed": "2",
-        "__collapse": false
+        "variable": "0"
       },
-      "id": "a86ec99f-e578-41f3-afaa-e9df0345a814"
+      "id": "7d595f1e-007c-484e-9556-96fed1b611c8"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "0179ff57-30c7-46c0-924d-02bd2ecfab82",
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "5857c404-8e54-4b77-94ed-649a3e41ee3a"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "12fdc320-51ba-428a-834d-bc36f06c135e",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "b374baca-b54f-4837-84d5-397d7d3cb14a"
+          }
+        ]
+      },
+      "id": "d4a7487c-d7e1-4a14-8a2e-c2acc77dd2d4"
     }
   ],
   "startScript": [],
-  "updateScript": [
-    {
-      "command": "EVENT_ACTOR_MOVE_TO",
-      "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 23
-        },
-        "y": {
-          "type": "number",
-          "value": 8
-        },
-        "moveType": "horizontal",
-        "useCollisions": false,
-        "__collapse": false
-      },
-      "id": "1d9af207-2e7d-4a74-a085-d9ddb63ca40e"
-    },
-    {
-      "command": "EVENT_ACTOR_MOVE_TO",
-      "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 30
-        },
-        "y": {
-          "type": "number",
-          "value": 8
-        },
-        "moveType": "horizontal",
-        "useCollisions": false,
-        "__collapse": false
-      },
-      "id": "5e6292fc-295d-4e05-bd5a-5de9236db8c4"
-    }
-  ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 26,
-  "y": 8,
+  "x": 28,
+  "y": 12,
   "_index": 2
 }

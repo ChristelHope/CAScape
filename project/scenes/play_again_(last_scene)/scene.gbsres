@@ -13,8 +13,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_11",
-  "x": 544,
-  "y": 72,
+  "x": 1248,
+  "y": 64,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -62,11 +62,11 @@
               "sceneId": "345a05ba-7f4f-4dd9-a01c-dbe2d817faa7",
               "x": {
                 "type": "number",
-                "value": 2
+                "value": 19
               },
               "y": {
                 "type": "number",
-                "value": 17
+                "value": 1
               },
               "direction": "",
               "fadeSpeed": 2

@@ -72,9 +72,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Play again?\npress >"
+          "Wanna play again?\n      press >"
         ],
-        "__section": "layout",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -114,11 +114,11 @@
               "sceneId": "345a05ba-7f4f-4dd9-a01c-dbe2d817faa7",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 19
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 17
               },
               "direction": "right",
               "fadeSpeed": "2",

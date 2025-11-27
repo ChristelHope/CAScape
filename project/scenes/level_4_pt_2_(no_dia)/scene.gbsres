@@ -23,10 +23,22 @@
         "speed": 15
       },
       "id": "3a69b643-cbe4-4e94-8b7e-dd4697fd02d2"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Lives:$00$",
+        "x": 12,
+        "y": 6,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "d7342530-3573-418c-a4fe-9e99b62a518b"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963"
+  "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963",
+  "autoFadeEventCollapse": true
 }

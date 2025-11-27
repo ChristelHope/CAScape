@@ -1,6 +1,6 @@
 {
   "_resourceType": "trigger",
-  "id": "7dacba3a-c468-4c3a-b2d5-bbd05429ed29",
+  "id": "c4e1a81c-d0d4-4e69-a5ba-8322e7461dfe",
   "name": "",
   "prefabId": "",
   "x": 39,
@@ -21,24 +21,71 @@
         "wait": false,
         "effect": 0
       },
-      "id": "f6603312-f3bd-47b3-ba7e-fcbf4eb99a90"
+      "id": "19932b0a-8e71-4e83-86df-716842ca21c1"
+    },
+    {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "0"
+      },
+      "id": "4e6a1621-a611-4a9c-a8ae-88e0eff74ba4"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "0179ff57-30c7-46c0-924d-02bd2ecfab82",
+              "x": {
+                "type": "number",
+                "value": 11
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "c7221aaa-a69e-44d2-acab-97b90e1f7f8e"
+          }
+        ],
+        "false": []
+      },
+      "id": "cceb76d8-2436-4d09-9e33-fbb904b32958"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "0179ff57-30c7-46c0-924d-02bd2ecfab82",
+        "sceneId": "12fdc320-51ba-428a-834d-bc36f06c135e",
         "x": {
           "type": "number",
-          "value": 18
+          "value": 6
         },
         "y": {
           "type": "number",
-          "value": 8
+          "value": 13
         },
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "97eccf72-2041-4c61-89b3-e07bcb22d466"
+      "id": "4a2ba037-1ba2-4502-8635-627011b40920"
     }
   ],
   "leaveScript": [],

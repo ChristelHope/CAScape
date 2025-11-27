@@ -2,24 +2,24 @@
   "_resourceType": "scene",
   "id": "401d2a50-2f6e-4983-96e5-aef1a54c8717",
   "_index": 14,
-  "name": "Level 3 pt 4 (reveal last gap)",
-  "backgroundId": "b87bb615-fe54-41c4-b51a-6504b679427f",
-  "tilesetId": "",
-  "width": 48,
-  "height": 18,
   "type": "PLATFORM",
-  "paletteIds": [
-    "dmg",
-    null,
-    null,
-    "default-bg-4"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "001b4+0f!012b+004+0f!002f+0f!002f+0f!002f+0f!002f+0fb+002+08!0fa+003+0f7+004+0f6+00e+0f!002+08!0fa+003+0f!005+0f!004+0f!0013+0f!002+08!0f!008+0f!003+0f!004+0f2+004+0f!0013+0f!003+0f!008+0f!003+0f!004+0f2+004+0f!005+",
-  "autoFadeSpeed": 1,
+  "name": "Level 3 pt 4 (reveal last gap)",
   "symbol": "scene_16",
   "x": 1352.7766689230698,
   "y": 866.2142436309523,
+  "width": 48,
+  "height": 18,
+  "backgroundId": "b87bb615-fe54-41c4-b51a-6504b679427f",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg",
+    "",
+    "",
+    "default-bg-4"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963",
   "script": [
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -28,10 +28,21 @@
         "speed": 15
       },
       "id": "42263b74-7de5-4ff4-9294-54e869697439"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Lives: $00$",
+        "x": 19,
+        "y": 6,
+        "location": "overlay",
+        "__collapse": false
+      },
+      "id": "4c6b7ee2-eadb-4681-be35-d5854f6df310"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963"
+  "collisions": "001b4+0f!012b+004+0f!002f+0f!002f+0f!002f+0f!002f+0fb+002+08!0fa+003+0f7+004+0f6+00e+0f!002+08!0fa+003+0f!005+0f!004+0f!0013+0f!002+08!0f!008+0f!003+0f!004+0f2+004+0f!0013+0f!003+0f!008+0f!003+0f!004+0f2+004+0f!005+"
 }

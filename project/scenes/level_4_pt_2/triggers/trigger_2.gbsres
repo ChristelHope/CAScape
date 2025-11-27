@@ -1,60 +1,101 @@
 {
   "_resourceType": "trigger",
-  "id": "faaedee1-86f8-47f4-8869-75d5bddc7bf1",
+  "id": "f085a5c3-ee60-464d-84ca-9aafd9318895",
   "name": "",
   "prefabId": "",
-  "x": 15,
-  "y": 17,
-  "symbol": "trigger_9",
+  "x": 20,
+  "y": 13,
+  "symbol": "trigger_48",
   "prefabScriptOverrides": {},
-  "width": 5,
+  "width": 1,
   "height": 1,
-  "script": [
-    {
-      "command": "EVENT_SOUND_PLAY_EFFECT",
-      "args": {
-        "type": "beep",
-        "priority": "medium",
-        "pitch": 2,
-        "frequency": 200,
-        "duration": 0.3,
-        "wait": false,
-        "effect": 0
-      },
-      "id": "954a5713-e07b-45ec-9d71-51e9149018f6"
-    },
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "0179ff57-30c7-46c0-924d-02bd2ecfab82",
-        "x": {
-          "type": "number",
-          "value": 15
-        },
-        "y": {
-          "type": "number",
-          "value": 17
-        },
-        "direction": "",
-        "fadeSpeed": "2"
-      },
-      "id": "e472749a-1e89-4e34-a92e-41b203d54774"
-    }
-  ],
+  "script": [],
   "leaveScript": [
     {
-      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "command": "EVENT_ACTOR_SET_STATE",
       "args": {
-        "type": "beep",
-        "priority": "medium",
-        "pitch": 2,
-        "frequency": 200,
-        "duration": 0.3,
-        "wait": true,
-        "effect": 0,
-        "__collapse": false
+        "actorId": "$self$",
+        "spriteStateId": "stand by",
+        "loopAnim": false
       },
-      "id": "f3f851c0-74c8-433f-ae8f-eb4142570f89"
+      "id": "74febd83-1c90-4a5c-8443-417ab138d0fe"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+      },
+      "id": "188eed4e-2a3c-4b84-900b-d3bc37a0a9c5"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Be careful not to \nactivate the bombs"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "any",
+        "closeDelayTime": 4,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "eecfc704-bcee-4b0e-94b5-db221cf836b9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Casie:\nWhat?..\nI thought those \nwere just myths!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 3,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "40b3b8f9-dac4-47c3-a838-2338235ab0e6"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "b9bcdadf-b348-4160-bcf4-12135bf6d620"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15
+      },
+      "id": "5b8bdaae-bc5a-4544-b374-1b68eb09ff5d"
     }
   ],
   "_index": 1

@@ -12,7 +12,7 @@
     "default-bg-1"
   ],
   "spritePaletteIds": [],
-  "collisions": "002+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f1d+003+0f!011d+002+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!001f+0f12+003+0f9+0013+0f!003+0f!007+0f!0013+0f!003+0f!007+0f!0013+0f!003+0f!007+0f!",
+  "collisions": "002+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f!001f+0f1e+002+0f!011d+002+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!04!001e+0f!001f+0f12+003+0f9+0013+0f!003+0f!007+0f!0013+0f!003+0f!007+0f!0013+0f!003+0f!007+0f!",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
   "x": 648,
@@ -25,6 +25,16 @@
         "speed": 15
       },
       "id": "86d14261-110a-4375-9fd2-88de707cefa3"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Lives: $00$",
+        "x": 14,
+        "y": 6,
+        "location": "background"
+      },
+      "id": "9b06f27d-5321-44fa-9c70-48a1136c0b79"
     }
   ],
   "playerHit1Script": [],
