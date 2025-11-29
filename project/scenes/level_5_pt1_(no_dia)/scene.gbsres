@@ -30,10 +30,11 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "Lives: $lives",
+        "text": "Lives: $00$",
         "x": 6,
         "y": 6,
-        "location": "background"
+        "location": "background",
+        "__collapse": true
       },
       "id": "c999cfd9-fe95-4c19-9b2f-90b0f428db4e"
     }

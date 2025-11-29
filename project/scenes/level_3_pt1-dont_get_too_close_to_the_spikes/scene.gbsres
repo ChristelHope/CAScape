@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "e3ec94e4-3653-4014-bea0-4192b6e9dc5b",
   "_index": 12,
-  "name": "Level 3: Don't get too close to the spikes",
+  "name": "Level 3 pt1-Don't get too close to the spikes",
   "backgroundId": "2f9bf1c0-fab3-462c-ad54-f6f165061efa",
   "tilesetId": "",
   "width": 48,
@@ -30,9 +30,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Mind the gap... \nand your head!"
+          "\"Mind the gap... \nand your head!\""
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -46,7 +46,7 @@
         "speedOut": -1,
         "closeWhen": "text",
         "closeButton": "a",
-        "closeDelayTime": 3,
+        "closeDelayTime": 2,
         "closeDelayFrames": 30,
         "__collapse": false
       },
@@ -64,9 +64,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Casie:\nIt's a nightmare!"
+          "Casie:\n\"IT'S A NIGHTMARE\""
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -80,7 +80,7 @@
         "speedOut": -1,
         "closeWhen": "text",
         "closeButton": "any",
-        "closeDelayTime": 3,
+        "closeDelayTime": 2,
         "closeDelayFrames": 30,
         "__collapse": false
       },

@@ -14,8 +14,8 @@
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",
-        "spriteStateId": "stand by",
-        "loopAnim": true
+        "spriteStateId": "",
+        "loopAnim": false
       },
       "id": "34b71e80-2278-4c96-96b3-bbfd763fcba0"
     },

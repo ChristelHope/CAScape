@@ -25,7 +25,8 @@
         "axis": [
           "x",
           "y"
-        ]
+        ],
+        "__collapse": true
       },
       "id": "0369c4f7-dec7-4d32-a11d-c963df4017bd"
     },
@@ -33,17 +34,19 @@
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 15
+        "speed": 15,
+        "__collapse": false
       },
       "id": "acd7cd82-4c71-490f-8045-9f955e0654ae"
     },
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "Lives: $lives",
+        "text": "Lives: $00$",
         "x": 6,
         "y": 6,
-        "location": "background"
+        "location": "background",
+        "__collapse": true
       },
       "id": "0cea5341-3dc9-4569-94aa-9cf021648c45"
     }
@@ -51,6 +54,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false,
+  "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "2ad575bb-c0c8-4e50-984a-3a9fa21b1963"
 }

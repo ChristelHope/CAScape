@@ -33,7 +33,7 @@
         "text": [
           "Casie:\nI need to find \nthe right timing.."
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -45,12 +45,29 @@
         "showFrame": "true",
         "speedIn": -1,
         "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
+        "closeWhen": "text",
+        "closeButton": "any",
+        "closeDelayTime": 2,
         "closeDelayFrames": 30
       },
       "id": "78e1ce0b-7a1c-4f50-b260-a7238cfc9a20"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": false
+      },
+      "id": "5e529b4f-9c9f-452c-a034-66645474ff05"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15
+      },
+      "id": "463cee46-78e8-49c2-a92d-6a8c191062cc"
     }
   ],
   "leaveScript": [],

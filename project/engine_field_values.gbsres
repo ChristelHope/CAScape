@@ -19,11 +19,11 @@
     },
     {
       "id": "plat_run_vel",
-      "value": 4723
+      "value": 4721
     },
     {
       "id": "plat_walk_acc",
-      "value": 60
+      "value": 58
     },
     {
       "id": "plat_run_acc",
@@ -43,7 +43,7 @@
     },
     {
       "id": "plat_jump_vel",
-      "value": 11030
+      "value": 11015
     }
   ]
 }

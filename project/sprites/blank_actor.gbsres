@@ -1,10 +1,10 @@
 {
   "_resourceType": "sprite",
   "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-  "name": "arrow",
+  "name": "blank actor",
   "symbol": "sprite_actor",
   "numFrames": 3,
-  "filename": "arrow.png",
+  "filename": "blank actor.png",
   "checksum": "8646d62a30fe76f9e39e3dbdb23aab0182a33146",
   "width": 48,
   "height": 16,
@@ -12,7 +12,7 @@
     {
       "id": "4d1efdcf-c6d6-4b25-ab89-008b990697ac",
       "name": "",
-      "animationType": "multi",
+      "animationType": "fixed",
       "flipLeft": true,
       "animations": [
         {
@@ -20,34 +20,7 @@
           "frames": [
             {
               "id": "c905496b-7d90-4107-9728-767b51d9b563",
-              "tiles": [
-                {
-                  "id": "d51763df-1353-4da7-9cf7-03fbada9edd2",
-                  "x": 0,
-                  "y": 0,
-                  "sliceX": 32,
-                  "sliceY": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "palette": 0,
-                  "paletteIndex": 0,
-                  "objPalette": "OBP0",
-                  "priority": false
-                },
-                {
-                  "id": "c7f96290-0943-4855-a706-f198accdca3f",
-                  "x": 8,
-                  "y": 0,
-                  "sliceX": 40,
-                  "sliceY": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "palette": 0,
-                  "paletteIndex": 0,
-                  "objPalette": "OBP0",
-                  "priority": false
-                }
-              ]
+              "tiles": []
             }
           ]
         },
@@ -171,7 +144,7 @@
       ]
     }
   ],
-  "numTiles": 5,
+  "numTiles": 3,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,

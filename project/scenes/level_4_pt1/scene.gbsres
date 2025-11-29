@@ -37,7 +37,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Keep going, you're\nalmost there!"
+          "\"You can do this.\nU R almost there!\""
         ],
         "__section": "text",
         "avatarId": "",
@@ -55,7 +55,7 @@
         "closeButton": "a",
         "closeDelayTime": 3,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "717fdeb5-d35f-45e9-befb-349344a94d58"
     },

@@ -25,7 +25,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Beware of\naftershocks and \nhazards!!"
+          "\"Beware of\naftershocks and \nhazards!!\""
         ],
         "__section": "text",
         "avatarId": "",
@@ -43,7 +43,7 @@
         "closeButton": "a",
         "closeDelayTime": 3,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "e7ce53f2-9e5f-4354-9f3c-fc9516690e4b"
     },
@@ -51,7 +51,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Casie:\nI'm counting on U"
+          "Casie:\n\"I'M COUNTING\n ON YOU >-< \""
         ],
         "__section": "text",
         "avatarId": "",
@@ -67,9 +67,9 @@
         "speedOut": 1,
         "closeWhen": "text",
         "closeButton": "any",
-        "closeDelayTime": 3,
+        "closeDelayTime": 2,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "9d0ff388-a79a-4f56-bcb3-9fa471669f03"
     },

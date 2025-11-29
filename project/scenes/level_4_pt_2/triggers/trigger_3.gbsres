@@ -1,94 +1,177 @@
 {
   "_resourceType": "trigger",
-  "id": "e683e96d-a241-4afd-8cd3-2c792ff4e928",
+  "id": "b4d8977c-8aaf-423b-881c-8e574fafd970",
   "name": "",
   "prefabId": "",
-  "x": 14,
-  "y": 17,
-  "symbol": "trigger_9",
+  "x": 22,
+  "y": 13,
+  "symbol": "trigger_38",
   "prefabScriptOverrides": {},
-  "width": 5,
+  "width": 1,
   "height": 1,
   "script": [
     {
-      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "command": "EVENT_ACTOR_SET_STATE",
       "args": {
-        "type": "beep",
-        "priority": "medium",
-        "pitch": 2,
-        "frequency": 200,
-        "duration": 0.3,
-        "wait": false,
-        "effect": 0
+        "actorId": "$self$",
+        "spriteStateId": "stand by",
+        "loopAnim": false,
+        "__comment": true,
+        "__collapse": true
       },
-      "id": "2c82b8a1-36b3-4d33-ac21-2d3418f676d0"
+      "id": "931e2568-63b5-44d6-8cc6-9943be2b1ae1"
     },
     {
-      "command": "EVENT_DEC_VALUE",
+      "command": "EVENT_ACTOR_EMOTE",
       "args": {
-        "variable": "0"
+        "actorId": "$self$",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+        "__collapse": false,
+        "__comment": true
       },
-      "id": "031ba41d-f8e7-4206-96ba-5eb00d0d02e7"
+      "id": "80db554c-9468-447f-ad05-6fc79382e2f5"
     },
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_TEXT",
       "args": {
-        "condition": {
-          "type": "lt",
-          "valueA": {
-            "type": "variable",
-            "value": "0"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 0
-          }
-        },
-        "__collapseElse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "0179ff57-30c7-46c0-924d-02bd2ecfab82",
-              "x": {
-                "type": "number",
-                "value": 11
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "06a33326-09e9-432d-87ae-a0bb86ecfcb1"
-          }
+        "text": [
+          "\"Be careful not to\ntrigger the bombs\""
         ],
-        "false": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "12fdc320-51ba-428a-834d-bc36f06c135e",
-              "x": {
-                "type": "number",
-                "value": 6
-              },
-              "y": {
-                "type": "number",
-                "value": 13
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "4ad45da9-2eb6-4258-9b5b-8256b93f4559"
-          }
-        ]
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 3,
+        "closeDelayFrames": 30,
+        "__collapse": false,
+        "__comment": true
       },
-      "id": "50f348fc-9e76-4983-8e1f-c5fb0466e9b7"
+      "id": "e212b50f-9b7b-4a89-930e-02c7a8c38fbd"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Casie:\n\"What???\nI thought they're \njust fake news..\""
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "any",
+        "closeDelayTime": 3,
+        "closeDelayFrames": 30,
+        "__collapse": false,
+        "__comment": true
+      },
+      "id": "b0737c99-0730-44ef-afd6-4eab4508d460"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": false,
+        "__collapse": true
+      },
+      "id": "dd142aed-e16d-4edf-9e26-d8383edf3d8b"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+        "__collapse": true
+      },
+      "id": "22298cf2-825c-4ce9-aeb2-717352346812"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "\"Be careful not to\ntrigger the bombs\""
+        ],
+        "__section": "layout",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 3,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "9047528e-40d4-459e-a242-11de9c224621"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Casie:\n\"What???\nI thought they're \njust fake news..\""
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 3,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "cd901cbb-3363-4d70-93ae-dfaa451f5d2a"
+    },
+    {
+      "command": "EVENT_STOP",
+      "args": {},
+      "id": "1612724c-bdd1-4b36-924d-b3401357c374"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15,
+        "__collapse": true
+      },
+      "id": "9bbdc94d-cb90-4cff-9a64-7746e8642ea6"
+    }
+  ],
   "_index": 2
 }

@@ -20,6 +20,11 @@
       "id": "345a05ba-7f4f-4dd9-a01c-dbe2d817faa7__L0",
       "name": "Player Lives",
       "symbol": "var_player_lives"
+    },
+    {
+      "id": "b4d8977c-8aaf-423b-881c-8e574fafd970__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
     }
   ]
 }

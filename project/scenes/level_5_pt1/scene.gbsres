@@ -22,9 +22,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Casie:\nI see the exit!"
+          "Casie:\n\"I see the exit!\""
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -38,9 +38,9 @@
         "speedOut": -1,
         "closeWhen": "text",
         "closeButton": "any",
-        "closeDelayTime": 3,
+        "closeDelayTime": 2,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "86364e4b-89eb-463d-ae90-aac6a865e931"
     },
@@ -56,10 +56,11 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "Lives: $lives",
+        "text": "Lives: $00$",
         "x": 6,
         "y": 6,
-        "location": "background"
+        "location": "background",
+        "__collapse": true
       },
       "id": "aeeada05-f75c-4143-86b0-7123826ae044"
     }

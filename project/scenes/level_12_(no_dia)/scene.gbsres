@@ -43,7 +43,7 @@
           "type": "number",
           "value": 1
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "05984d93-b8d6-41cf-8bf0-9b8c00386248"
     },
@@ -62,7 +62,8 @@
         "text": "Lives: $00$",
         "x": 5,
         "y": 6,
-        "location": "background"
+        "location": "background",
+        "__collapse": true
       },
       "id": "1b25766f-d999-4ce8-a70e-42e5d16b3e55"
     }
